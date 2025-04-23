@@ -1,7 +1,12 @@
+import { Outlet } from "react-router";
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      Hola Mundo <Outlet />
+    </>
+  );
 }
 
 export default App;
