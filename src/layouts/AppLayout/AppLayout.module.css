@@ -1,0 +1,18 @@
+.body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  height: 10vh;
+}
+
+.page {
+  height: 90vh;
+}
+
+.footer {
+  height: auto;
+}
