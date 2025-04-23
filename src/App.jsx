@@ -1,12 +1,14 @@
 import { Outlet } from "react-router";
+import AppLayout from "./layouts/AppLayout";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      Hola mundo
-      <Outlet />
-    </>
+    <AppLayout
+      nav={<>Hola mundo</>}
+      page={<Outlet />}
+      footer={<>Pie de pagina</>}
+    />
   );
 }
 
