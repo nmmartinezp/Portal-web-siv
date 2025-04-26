@@ -5,7 +5,7 @@ function AppLayout({ nav, page, footer }) {
     >
       {nav}
       <main className={`w-full h-screen p-8`}>{page}</main>
-      <footer className={`w-full p-4`}>{footer}</footer>
+      <footer className={`w-full p-4 bg-default-200`}>{footer}</footer>
     </div>
   );
 }
