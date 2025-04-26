@@ -1,17 +1,21 @@
 import { NavbarItem, NavbarMenuItem, Button } from "@heroui/react";
-import { Link } from "react-router";
 
-function NavBarItem({ children, variant, to }) {
+function NavBarItem({ children, variant, onNavigate }) {
   return variant === "mobile" ? (
     <NavbarMenuItem>
-      <Button className="w-full" color="primary">
-        <Link to={to}>{children}</Link>
+      <Button className="w-full font-bold" color="primary" onPress={onNavigate}>
+        {children}
       </Button>
     </NavbarMenuItem>
   ) : (
     <NavbarItem>
-      <Button size="lg" variant="light">
-        <Link to={to}>{children}</Link>
+      <Button
+        className="font-bold"
+        size="lg"
+        variant="light"
+        onPress={onNavigate}
+      >
+        {children}
       </Button>
     </NavbarItem>
   );

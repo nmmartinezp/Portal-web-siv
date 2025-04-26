@@ -7,17 +7,29 @@ import {
   NavbarMenu,
   NavbarContent,
 } from "@heroui/react";
+import { useNavigate } from "react-router";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const toHome = () => {
+    navigate("/");
+    setIsMenuOpen(false);
+  };
+
+  const toHistory = () => {
+    navigate("/historia");
+    setIsMenuOpen(false);
+  };
 
   return (
     <Navbar isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
       {/*Desktop Menu*/}
       <NavbarContent className="hidden sm:flex gap-4 w-full" justify="center">
-        <NavBarItem to="/">INICIO</NavBarItem>
-        <NavBarItem to="/">HISTORIA</NavBarItem>
-        <NavBarItem to="/">CULUTURA</NavBarItem>
+        <NavBarItem onNavigate={toHome}>INICIO</NavBarItem>
+        <NavBarItem onNavigate={toHistory}>HISTORIA</NavBarItem>
+        <NavBarItem onNavigate={toHome}>CULUTURA</NavBarItem>
       </NavbarContent>
 
       {/*Mobile Menu*/}
@@ -28,9 +40,15 @@ function NavBar() {
         <NavbarBrand>Menu Principal</NavbarBrand>
       </NavbarContent>
       <NavbarMenu className="bg-content2-foreground py-8">
-        <NavBarItem variant="mobile">INICIO</NavBarItem>
-        <NavBarItem variant="mobile">HISTORIA</NavBarItem>
-        <NavBarItem variant="mobile">CULTURA</NavBarItem>
+        <NavBarItem variant="mobile" onNavigate={toHome}>
+          INICIO
+        </NavBarItem>
+        <NavBarItem variant="mobile" onNavigate={toHistory}>
+          HISTORIA
+        </NavBarItem>
+        <NavBarItem variant="mobile" onNavigate={toHome}>
+          CULTURA
+        </NavBarItem>
       </NavbarMenu>
     </Navbar>
   );
