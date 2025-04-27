@@ -1,4 +1,11 @@
-import { Divider } from "@heroui/react";
+import {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+  User,
+  Divider,
+  Link,
+} from "@heroui/react";
 
 function Footer() {
   return (
@@ -11,8 +18,32 @@ function Footer() {
         </article>
       </section>
       <Divider className="w-full" />
-      <section className="p-2">
-        <span>Desarrollo por Solar64</span>
+      <section className="p-2 flex items-center justify-center">
+        <span className="pr-4">Desarrollo por</span>
+        <Popover showArrow placement="bottom" backdrop={"blur"} offset={10}>
+          <PopoverTrigger>
+            <User
+              as="button"
+              avatarProps={{
+                src: "github.svg",
+              }}
+              className="transition-transform"
+              description="Desarrollador Web"
+              name="nmmartinezp"
+            />
+          </PopoverTrigger>
+          <PopoverContent className="p-4">
+            <Link
+              isBlock
+              isExternal
+              showAnchorIcon
+              color="primary"
+              href="https://mail.google.com/mail/?view=cm&to=martinezpardonisse@gmail.com"
+            >
+              Correo de contacto
+            </Link>
+          </PopoverContent>
+        </Popover>
       </section>
     </div>
   );
