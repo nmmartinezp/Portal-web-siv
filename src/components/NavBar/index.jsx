@@ -54,7 +54,7 @@ function NavBar() {
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         />
-        <NavbarBrand>Menu Principal</NavbarBrand>
+        <NavbarBrand>San Ignacio de Velasco</NavbarBrand>
       </NavbarContent>
       <NavbarMenu className="bg-content2-foreground py-8">
         <NavBarItem variant="mobile" onNavigate={toHome}>
