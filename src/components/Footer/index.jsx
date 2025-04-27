@@ -5,13 +5,17 @@ import {
   User,
   Divider,
   Link,
+  Image,
 } from "@heroui/react";
 
 function Footer() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center overflow-hidden h-auto">
       <section className="flex flex-col items-center justify-center">
-        <h3 className="p-2 font-bold">SIV WEB</h3>
+        <div className="flex items-center justify-center p-2">
+          <img src="logoChiquitania01.svg" width={50} className="pr-2" />
+          <h3 className=" font-bold">SIV WEB</h3>
+        </div>
         <article className="w-3/5 text-center p-4">
           Pagina informativa con contenido sobre la historia, cultura, turismo,
           actualidad de el municipio de San Ignacio de Velasco.
