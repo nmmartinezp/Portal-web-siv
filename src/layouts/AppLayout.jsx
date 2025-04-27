@@ -4,8 +4,14 @@ function AppLayout({ nav, page, footer }) {
       className={`dark text-foreground bg-background h-screen w-full overflow-y-scroll scrollbar-hide`}
     >
       {nav}
-      <main className={`w-full h-screen pt-0 px-2 pb-8`}>{page}</main>
-      <footer className={`w-full p-4 bg-default-200`}>{footer}</footer>
+      <main
+        className={`w-full h-[93vh] p-0 overflow-y-scroll scrollbar-hide snap-y snap-mandatory scroll-smooth`}
+      >
+        {page}
+        <footer className={`w-full p-4 bg-default-200 snap-start`}>
+          {footer}
+        </footer>
+      </main>
     </div>
   );
 }
