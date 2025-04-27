@@ -23,13 +23,30 @@ function NavBar() {
     setIsMenuOpen(false);
   };
 
+  const toCulture = () => {
+    navigate("/cultura");
+    setIsMenuOpen(false);
+  };
+
+  const toTerritory = () => {
+    navigate("/territorio");
+    setIsMenuOpen(false);
+  };
+
+  const toTourism = () => {
+    navigate("/turismo");
+    setIsMenuOpen(false);
+  };
+
   return (
     <Navbar isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
       {/*Desktop Menu*/}
       <NavbarContent className="hidden sm:flex gap-4 w-full" justify="center">
         <NavBarItem onNavigate={toHome}>INICIO</NavBarItem>
         <NavBarItem onNavigate={toHistory}>HISTORIA</NavBarItem>
-        <NavBarItem onNavigate={toHome}>CULUTURA</NavBarItem>
+        <NavBarItem onNavigate={toCulture}>CULUTURA</NavBarItem>
+        <NavBarItem onNavigate={toTerritory}>TERRITORIO</NavBarItem>
+        <NavBarItem onNavigate={toTourism}>TURISMO</NavBarItem>
       </NavbarContent>
 
       {/*Mobile Menu*/}
@@ -46,8 +63,14 @@ function NavBar() {
         <NavBarItem variant="mobile" onNavigate={toHistory}>
           HISTORIA
         </NavBarItem>
-        <NavBarItem variant="mobile" onNavigate={toHome}>
-          CULTURA
+        <NavBarItem variant="mobile" onNavigate={toCulture}>
+          CULUTURA
+        </NavBarItem>
+        <NavBarItem variant="mobile" onNavigate={toTerritory}>
+          TERRITORIO
+        </NavBarItem>
+        <NavBarItem variant="mobile" onNavigate={toTourism}>
+          TURISMO
         </NavBarItem>
       </NavbarMenu>
     </Navbar>

@@ -1,6 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "../App";
 import Home from "../pages/Home";
+import Culture from "../pages/Culture";
+import Territory from "../pages/Territory";
+import Tourism from "../pages/Tourism";
 import History from "../pages/History";
 
 const router = createBrowserRouter([
@@ -16,6 +19,18 @@ const router = createBrowserRouter([
       {
         path: "historia",
         element: <History />,
+      },
+      {
+        path: "territorio",
+        element: <Territory />,
+      },
+      {
+        path: "cultura",
+        element: <Culture />,
+      },
+      {
+        path: "turismo",
+        element: <Tourism />,
       },
     ],
   },
