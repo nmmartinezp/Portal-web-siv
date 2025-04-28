@@ -23,6 +23,7 @@ function HomeLayout({
             initial={{ opacity: 0, x: 300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0.2 }}
           >
             {pt01}
           </motion.div>
@@ -31,6 +32,7 @@ function HomeLayout({
             initial={{ opacity: 0, x: 200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             {art01}
           </motion.article>
@@ -43,6 +45,7 @@ function HomeLayout({
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             {art02}
           </motion.article>
@@ -51,6 +54,7 @@ function HomeLayout({
             initial={{ opacity: 0, x: -300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             {pt02}
           </motion.div>
@@ -63,6 +67,7 @@ function HomeLayout({
             initial={{ opacity: 0, x: 300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             {pt03}
           </motion.div>
@@ -71,6 +76,7 @@ function HomeLayout({
             initial={{ opacity: 0, x: 200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             {art03}
           </motion.article>
@@ -83,6 +89,7 @@ function HomeLayout({
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             {art04}
           </motion.article>
@@ -91,6 +98,7 @@ function HomeLayout({
             initial={{ opacity: 0, x: -300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             {pt04}
           </motion.div>
