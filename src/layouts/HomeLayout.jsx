@@ -1,4 +1,4 @@
-import React from "react";
+import { motion } from "motion/react";
 
 function HomeLayout({
   carosusel,
@@ -18,42 +18,90 @@ function HomeLayout({
       </section>
       <section className="w-full h-[93vh] flex items-center justify-center px-2 snap-start">
         <div className="w-11/12 h-[78%] md:h-[93vh] flex flex-col md:flex-row items-center justify-center">
-          <div className="flex items-center justify-center pt-10 p-4 w-11/12 md:w-[40%] h-[40%] md:h-full">
+          <motion.div
+            className="flex items-center justify-center pt-10 p-4 w-11/12 md:w-[40%] h-[40%] md:h-full"
+            initial={{ opacity: 0, x: 300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             {pt01}
-          </div>
-          <article className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full">
+          </motion.div>
+          <motion.article
+            className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full"
+            initial={{ opacity: 0, x: 200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             {art01}
-          </article>
+          </motion.article>
         </div>
       </section>
       <section className="w-full h-[93vh] flex items-center justify-center px-2 snap-start">
         <div className="w-11/12 h-[78%] md:h-[93vh] flex flex-col md:flex-row items-center justify-center">
-          <article className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full">
+          <motion.article
+            className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full"
+            initial={{ opacity: 0, x: 200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             {art02}
-          </article>
-          <div className="flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full">
+          </motion.article>
+          <motion.div
+            className="flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full"
+            initial={{ opacity: 0, x: 300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             {pt02}
-          </div>
+          </motion.div>
         </div>
       </section>
       <section className="w-full h-[93vh] flex items-center justify-center px-2 snap-start">
         <div className="w-11/12 h-[78%] md:h-[93vh] flex flex-col md:flex-row items-center justify-center">
-          <div className="flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full">
+          <motion.div
+            className="flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full"
+            initial={{ opacity: 0, x: 300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             {pt03}
-          </div>
-          <article className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full">
+          </motion.div>
+          <motion.article
+            className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full"
+            initial={{ opacity: 0, x: 200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             {art03}
-          </article>
+          </motion.article>
         </div>
       </section>
       <section className="w-full h-[93vh] flex items-center justify-center px-2 snap-start">
         <div className="w-11/12 h-[78%] md:h-[93vh] flex flex-col md:flex-row items-center justify-center">
-          <article className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full">
+          <motion.article
+            className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full"
+            initial={{ opacity: 0, x: 200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             {art04}
-          </article>
-          <div className="flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full">
+          </motion.article>
+          <motion.div
+            className="flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full"
+            initial={{ opacity: 0, x: 300 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+          >
             {pt04}
-          </div>
+          </motion.div>
         </div>
       </section>
     </>
