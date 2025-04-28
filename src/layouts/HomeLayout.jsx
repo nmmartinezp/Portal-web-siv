@@ -42,7 +42,7 @@ function HomeLayout({
         <div className="w-11/12 h-[78%] md:h-[93vh] flex flex-col md:flex-row items-center justify-center">
           <motion.article
             className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full"
-            initial={{ opacity: 0, x: 200 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
@@ -51,7 +51,7 @@ function HomeLayout({
           </motion.article>
           <motion.div
             className="flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full"
-            initial={{ opacity: 0, x: 300 }}
+            initial={{ opacity: 0, x: -300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
@@ -86,7 +86,7 @@ function HomeLayout({
         <div className="w-11/12 h-[78%] md:h-[93vh] flex flex-col md:flex-row items-center justify-center">
           <motion.article
             className="flex items-center justify-center p-4 md:w-[60%] h-[60%] md:h-full"
-            initial={{ opacity: 0, x: 200 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
@@ -95,7 +95,7 @@ function HomeLayout({
           </motion.article>
           <motion.div
             className="flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full"
-            initial={{ opacity: 0, x: 300 }}
+            initial={{ opacity: 0, x: -300 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}

@@ -39,7 +39,12 @@ function NavBar() {
   };
 
   return (
-    <Navbar isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+    <Navbar
+      isBordered
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+      className="h-[7vh]"
+    >
       {/*Desktop Menu*/}
       <NavbarContent className="hidden sm:flex gap-4 w-full" justify="center">
         <NavBarItem onNavigate={toHome}>INICIO</NavBarItem>
