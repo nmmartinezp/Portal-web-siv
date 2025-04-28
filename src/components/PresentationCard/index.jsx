@@ -24,7 +24,6 @@ function PresentationCard({ type, title, children, to, animation }) {
           }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          viewport={{ once: true }}
         >
           {title}
         </motion.h1>
@@ -42,7 +41,6 @@ function PresentationCard({ type, title, children, to, animation }) {
           }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          viewport={{ once: true }}
         >
           {title}
         </motion.h2>
@@ -55,7 +53,6 @@ function PresentationCard({ type, title, children, to, animation }) {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
-        viewport={{ once: true }}
       >
         {children}
       </motion.div>
@@ -64,7 +61,6 @@ function PresentationCard({ type, title, children, to, animation }) {
         initial={{ opacity: 0, x: x }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
-        viewport={{ once: true }}
       >
         <Button
           onPress={handleClick}
