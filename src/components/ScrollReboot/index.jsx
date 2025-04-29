@@ -1,18 +1,17 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 
-function ScrollReboot() {
+function ScrollReboot({ scrollRef }) {
   const pathname = useLocation();
 
   useEffect(() => {
-    const main = document.querySelector("main");
-    if (main) {
-      main.scrollTo({
+    if (scrollRef?.current) {
+      scrollRef.current.scrollTo({
         top: 0,
         behavior: "smooth",
       });
     }
-  }, [pathname]);
+  }, [pathname, scrollRef]);
 
   return null;
 }
