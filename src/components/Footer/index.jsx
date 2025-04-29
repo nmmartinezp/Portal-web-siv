@@ -5,7 +5,6 @@ import {
   User,
   Divider,
   Link,
-  Image,
 } from "@heroui/react";
 
 function Footer() {

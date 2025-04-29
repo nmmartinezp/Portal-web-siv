@@ -43,7 +43,7 @@ function NavBar() {
       isBordered
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      className="h-[7vh]"
+      className="h-[var(--myapp-navbar--height)]"
     >
       {/*Desktop Menu*/}
       <NavbarContent className="hidden sm:flex gap-4 w-full" justify="center">

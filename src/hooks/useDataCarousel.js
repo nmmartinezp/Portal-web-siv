@@ -1,7 +1,7 @@
-import catedralSiv from "../assets/catedralSiv.webp";
-import culture01Siv from "../assets/culture01Siv.webp";
-import religionSiv from "../assets/religionSiv.webp";
-import represaSiv from "../assets/represaSiv.webp";
+import catedralSiv from "@assets/catedralSiv.webp";
+import culture01Siv from "@assets/culture01Siv.webp";
+import religionSiv from "@assets/religionSiv.webp";
+import represaSiv from "@assets/represaSiv.webp";
 
 function useDataCarousel() {
   const data = [

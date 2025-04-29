@@ -16,7 +16,7 @@ function Carousel({ data }) {
   const currentData = data[currentIndex];
 
   return (
-    <div className="relative w-full h-[93vh] mx-auto overflow-hidden shadow-lg">
+    <div className="relative w-full h-full mx-auto overflow-hidden shadow-lg">
       <div
         className="relative w-full h-full bg-cover bg-center bg-no-repeat transition-background duration-500 ease-in-out"
         style={{ backgroundImage: `url(${currentData.src})` }}

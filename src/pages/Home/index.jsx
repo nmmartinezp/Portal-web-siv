@@ -1,14 +1,18 @@
-import HomeLayout from "../../layouts/HomeLayout";
-import Carousel from "../../components/Carousel";
-import PresentationCard from "../../components/PresentationCard";
+import HomeLayout from "@layouts/HomeLayout";
+import Carousel from "@components/Carousel";
+import PresentationCard from "@components/PresentationCard";
 import { Image } from "@heroui/react";
-import useDataCarousel from "../../hooks/useDataCarousel";
-import catedral02Siv from "../../assets/catedral02Siv.webp";
+import useDataCarousel from "@hooks/useDataCarousel";
+import catedral02Siv from "@assets/catedral02Siv.webp";
 
 function Home() {
   const dataCarousel = useDataCarousel();
+
   return (
     <HomeLayout
+      animexArticule={200}
+      animexPicture={300}
+      duration={1}
       carosusel={<Carousel data={dataCarousel} />}
       pt01={
         <Image
