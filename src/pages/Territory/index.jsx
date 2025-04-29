@@ -1,5 +1,6 @@
+import TerritoryLayout from "@layouts/TerritoryLayout";
 function Territory() {
-  return <div>Territory</div>;
+  return <TerritoryLayout />;
 }
 
 export default Territory;

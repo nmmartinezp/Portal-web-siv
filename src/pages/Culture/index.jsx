@@ -1,5 +1,7 @@
+import CultureLayout from "@layouts/CultureLayout";
+
 function Culture() {
-  return <div>Culture</div>;
+  return <CultureLayout />;
 }
 
 export default Culture;

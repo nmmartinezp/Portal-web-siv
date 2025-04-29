@@ -11,10 +11,8 @@ function AppLayout({ nav, page, footer }) {
       <ScrollReboot />
       {nav}
       <main
-        className={`w-full p-0 scrollbar-hide ${
-          isHome
-            ? "h-[var(--myapp-main-height)] overflow-y-scroll snap-y snap-mandatory scroll-smooth"
-            : ""
+        className={`w-full h-[var(--myapp-main-height)] p-0 scrollbar-hide ${
+          isHome ? "overflow-y-scroll snap-y snap-mandatory scroll-smooth" : ""
         }`}
       >
         {page}

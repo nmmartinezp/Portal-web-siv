@@ -1,5 +1,6 @@
+import TourismLayout from "@layouts/TourismLayout";
 function Tourism() {
-  return <div>Tourism</div>;
+  return <TourismLayout />;
 }
 
 export default Tourism;
