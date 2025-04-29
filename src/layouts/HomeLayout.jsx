@@ -17,7 +17,7 @@ function HomeLayout({
   const sectionStyle =
     "w-full h-[var(--myapp-main-height)] px-2 flex items-center justify-center snap-start";
   const divContainerStyle =
-    "w-11/12 h-[78%] md:h-[var(--myapp-main-height)] flex flex-col md:flex-row items-center justify-center";
+    "w-11/12 h-[90%] md:h-[var(--myapp-main-height)] flex flex-col md:flex-row items-center justify-center";
   const divPictureStyle =
     "flex items-center justify-center p-4 w-11/12 md:w-[40%] h-[40%] md:h-full";
   const articuleStyle =

@@ -4,6 +4,9 @@ import PresentationCard from "@components/PresentationCard";
 import { Image } from "@heroui/react";
 import useDataCarousel from "@hooks/useDataCarousel";
 import catedral02Siv from "@assets/catedral02Siv.webp";
+import monumento01Siv from "@assets/monumento01Siv.webp";
+import plazuela from "@assets/plazuelaPuebloNuevoSiv.webp";
+import vistaSiv from "@assets/territorioSiv.webp";
 
 function Home() {
   const dataCarousel = useDataCarousel();
@@ -11,7 +14,7 @@ function Home() {
   return (
     <HomeLayout
       animexArticule={200}
-      animexPicture={300}
+      animexPicture={250}
       duration={1}
       carosusel={<Carousel data={dataCarousel} />}
       pt01={
@@ -27,94 +30,107 @@ function Home() {
         <PresentationCard
           type="principal"
           title="San Ignacio de Velasco"
-          to="/historia"
+          to="/cultura"
           animation="right"
         >
-          San Ignacio de Velasco (antiguamente San Ignacio de Loyola) es una
-          ciudad y municipio de Bolivia, capital de la provincia de Velasco en
-          el departamento de Santa Cruz, al este del país. Se encuentra a 476
-          kilómetros al estesureste de la ciudad de Santa Cruz de la Sierra en
-          una colina junto a las nacientes del río Paraguá. Se ha convertido en
-          un centro turístico. Tiene aproximadamente 61.412 habitantes según el
-          censo nacional del año 2001 constituyéndose en uno de los municipios
-          más poblados del departamento.
+          <p className="pb-4">
+            San Ignacio de Velasco, joya cultural de la Chiquitania boliviana.
+            Este encantador municipio boliviano combina historia viva,
+            arquitectura misional y tradiciones que perduran en el tiempo.
+          </p>
+          <p>
+            Rodeado de paisajes naturales únicos, puerta de entrada a reservas
+            ecológicas y hogar de una rica herencia cultural, la calidez de su
+            gente y el sonido de la música barroca en festivales únicos hacen de
+            este lugar un destino inolvidable.
+          </p>
         </PresentationCard>
       }
       pt02={
         <Image
           isBlurred
           isZoomed
-          alt="Iglesia Catedral de San Ignacio de Velasco"
-          src={catedral02Siv}
+          alt="Monumento de las misiones jesuitas"
+          src={monumento01Siv}
           className="w-full h-[230px] md:h-[350px]"
         />
       }
       art02={
         <PresentationCard
-          title="San Ignacio de Velasco"
-          to="/cultura"
+          title="Nuestra Historia Viva"
+          to="/historia"
           animation="left"
         >
-          San Ignacio de Velasco (antiguamente San Ignacio de Loyola) es una
-          ciudad y municipio de Bolivia, capital de la provincia de Velasco en
-          el departamento de Santa Cruz, al este del país. Se encuentra a 476
-          kilómetros al estesureste de la ciudad de Santa Cruz de la Sierra en
-          una colina junto a las nacientes del río Paraguá. Se ha convertido en
-          un centro turístico. Tiene aproximadamente 61.412 habitantes según el
-          censo nacional del año 2001 constituyéndose en uno de los municipios
-          más poblados del departamento.
+          <p className="pb-4">
+            Fundado en 1748 por los misioneros jesuitas, este pueblo fue uno de
+            los últimos y más importantes asentamientos misionales creados en la
+            región. Su origen responde a un encuentro profundo entre la
+            espiritualidad europea y la sabiduría ancestral de los pueblos
+            indígenas chiquitanos.
+          </p>
+          <p>
+            Tras la expulsión de los jesuitas en 1767, la comunidad mantuvo viva
+            esta herencia con orgullo, transmitiendo conocimientos y tradiciones
+            de generación en generación.
+          </p>
         </PresentationCard>
       }
       pt03={
         <Image
           isBlurred
           isZoomed
-          alt="Iglesia Catedral de San Ignacio de Velasco"
-          src={catedral02Siv}
+          alt="Vista desde arriba San Ignacio de Velasco"
+          src={vistaSiv}
           className="w-full h-[230px] md:h-[350px]"
         />
       }
       art03={
         <PresentationCard
-          type="principal"
-          title="San Ignacio de Velasco"
-          to="/historia"
+          title="Territorio Oriental"
+          to="/territorio"
           animation="right"
         >
-          San Ignacio de Velasco (antiguamente San Ignacio de Loyola) es una
-          ciudad y municipio de Bolivia, capital de la provincia de Velasco en
-          el departamento de Santa Cruz, al este del país. Se encuentra a 476
-          kilómetros al estesureste de la ciudad de Santa Cruz de la Sierra en
-          una colina junto a las nacientes del río Paraguá. Se ha convertido en
-          un centro turístico. Tiene aproximadamente 61.412 habitantes según el
-          censo nacional del año 2001 constituyéndose en uno de los municipios
-          más poblados del departamento.
+          <p className="pb-4">
+            San Ignacio de Velasco se extiende majestuoso en el oriente
+            boliviano, formando parte del departamento de Santa Cruz. Con una
+            superficie de más de 65.000 km², es uno de los municipios más
+            extensos del país, caracterizado por una geografía diversa que
+            abarca llanuras, sabanas, bosques tropicales y serranías.
+          </p>
+          <p>
+            Su territorio incluye parte de la Reserva de Vida Silvestre Tucavaca
+            y está próximo al Parque Nacional Noel Kempff Mercado, una de las
+            áreas de mayor biodiversidad en Sudamérica.
+          </p>
         </PresentationCard>
       }
       pt04={
         <Image
           isBlurred
           isZoomed
-          alt="Iglesia Catedral de San Ignacio de Velasco"
-          src={catedral02Siv}
+          alt="Plazuela Pueblo Nuevo"
+          src={plazuela}
           className="w-full h-[230px] md:h-[350px]"
         />
       }
       art04={
         <PresentationCard
-          type="principal"
-          title="San Ignacio de Velasco"
-          to="/historia"
+          title="Paraíso Chiquitano"
+          to="/turismo"
           animation="left"
         >
-          San Ignacio de Velasco (antiguamente San Ignacio de Loyola) es una
-          ciudad y municipio de Bolivia, capital de la provincia de Velasco en
-          el departamento de Santa Cruz, al este del país. Se encuentra a 476
-          kilómetros al estesureste de la ciudad de Santa Cruz de la Sierra en
-          una colina junto a las nacientes del río Paraguá. Se ha convertido en
-          un centro turístico. Tiene aproximadamente 61.412 habitantes según el
-          censo nacional del año 2001 constituyéndose en uno de los municipios
-          más poblados del departamento.
+          <p className="pb-4">
+            El turismo en San Ignacio ofrece una variedad de experiencias: desde
+            la exploración de sus parques nacionales, como el Parque Nacional
+            Noel Kempff Mercado, uno de los más biodiversos del mundo, hasta la
+            visita a sus misiones jesuíticas restauradas, patrimonio de la
+            humanidad.
+          </p>
+          <p>
+            Los viajeros pueden disfrutar de actividades como el ecoturismo, el
+            avistamiento de fauna, caminatas por la selva, o simplemente
+            relajarse en un ambiente rural lleno de historia y tradición.
+          </p>
         </PresentationCard>
       }
     />
