@@ -1,7 +1,7 @@
-import CultureLayout from "@layouts/CultureLayout";
+import PageLayout from "@layouts/PageLayout";
 
 function Culture() {
-  return <CultureLayout />;
+  return <PageLayout bannerBox={"as"} menuContent={"as"} />;
 }
 
 export default Culture;

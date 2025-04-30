@@ -1,6 +1,7 @@
-import TerritoryLayout from "@layouts/TerritoryLayout";
+import PageLayout from "@layouts/PageLayout";
+
 function Territory() {
-  return <TerritoryLayout />;
+  return <PageLayout bannerBox={"as"} menuContent={"as"} />;
 }
 
 export default Territory;

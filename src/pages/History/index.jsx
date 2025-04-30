@@ -1,6 +1,7 @@
-import HistoryLayout from "@layouts/HistoRyLayout";
+import PageLayout from "@layouts/PageLayout";
+
 function History() {
-  return <HistoryLayout />;
+  return <PageLayout bannerBox={"as"} menuContent={"as"} />;
 }
 
 export default History;

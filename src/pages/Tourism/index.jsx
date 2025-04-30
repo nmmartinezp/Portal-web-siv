@@ -1,6 +1,7 @@
-import TourismLayout from "@layouts/TourismLayout";
+import PageLayout from "@layouts/PageLayout";
+
 function Tourism() {
-  return <TourismLayout />;
+  return <PageLayout bannerBox={"as"} menuContent={"as"} />;
 }
 
 export default Tourism;
