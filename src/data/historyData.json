@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Historia de San Ignacio de Velasco",
+    "image": "../assets/catedral02Siv.webp",
+    "description": "kuyeyo mix",
+    "historia": "aqui la historia",
+    "fuentes": ["fuente 1", "fuente 2"]
+  },
+  {
+    "title": "La Catedral",
+    "image": "@assets/catedral02Siv.webp",
+    "description": "kuyeyo mix",
+    "historia": "aqui la historia",
+    "fuentes": ["fuente 1", "fuente 2"]
+  },
+  {
+    "title": "La Catedral",
+    "image": "@assets/catedral02Siv.webp",
+    "description": "kuyeyo mix",
+    "historia": "aqui la historia",
+    "fuentes": ["fuente 1", "fuente 2"]
+  },
+  {
+    "title": "La Catedral",
+    "image": "@assets/catedral02Siv.webp",
+    "description": "kuyeyo mix",
+    "historia": "aqui la historia",
+    "fuentes": ["fuente 1", "fuente 2"]
+  },
+  {
+    "title": "La Catedral",
+    "image": "@assets/catedral02Siv.webp",
+    "description": "kuyeyo mix",
+    "historia": "aqui la historia",
+    "fuentes": ["fuente 1", "fuente 2"]
+  }
+]
