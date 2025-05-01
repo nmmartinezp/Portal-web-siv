@@ -8,7 +8,7 @@ function useHistoryPageData() {
   const secuence = ["8", "4", "3", "3", "6"];
   const data = historyData.map((item, index) => ({
     ...item,
-    image: images[index],
+    image: !item.image ? images[index] : item.image,
     space: secuence[index],
   }));
   return data;
