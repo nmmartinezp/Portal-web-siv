@@ -4,16 +4,19 @@ import { motion } from "framer-motion";
 function CardContent({
   children,
   src,
+  atlImage,
   description,
   col,
   cols,
   animation = false,
+  onPress,
 }) {
   return (
     <motion.div
       className={`${cols} ${col} h-[41vh]`}
       whileHover={{ scale: animation ? 1.03 : 1 }}
       whileTap={{ scale: animation ? 0.99 : 1 }}
+      onClick={onPress}
     >
       <Card className={`h-full`}>
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
@@ -24,7 +27,7 @@ function CardContent({
         </CardHeader>
         <Image
           removeWrapper
-          alt="Card background"
+          alt={atlImage}
           className="z-0 w-full h-full object-cover"
           src={src}
         />

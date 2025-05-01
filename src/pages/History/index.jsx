@@ -10,7 +10,11 @@ function History() {
     <CardPageLayout cols={`grid-cols-${columns}`}>
       {data.map((item, index) => (
         <CardContent
+          onPress={() => {
+            console.log(index);
+          }}
           animation
+          atlImage={item.altImage}
           description={item.description}
           src={item.image}
           cols={`col-span-${columns}`}
