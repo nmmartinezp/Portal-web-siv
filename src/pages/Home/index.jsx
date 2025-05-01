@@ -3,10 +3,10 @@ import Carousel from "@components/Carousel";
 import PresentationCard from "@components/PresentationCard";
 import { Image } from "@heroui/react";
 import useDataCarousel from "@hooks/useDataCarousel";
-import catedral02Siv from "@assets/catedral02Siv.webp";
-import monumento01Siv from "@assets/monumento01Siv.webp";
-import plazuela from "@assets/plazuelaPuebloNuevoSiv.webp";
-import vistaSiv from "@assets/territorioSiv.webp";
+import catedral from "@assets/catedral02Siv.webp";
+import monument from "@assets/monumento01Siv.webp";
+import smSquare from "@assets/plazuelaPuebloNuevoSiv.webp";
+import viewSiv from "@assets/territorioSiv.webp";
 
 function Home() {
   const dataCarousel = useDataCarousel();
@@ -22,7 +22,7 @@ function Home() {
           isBlurred
           isZoomed
           alt="Iglesia Catedral de San Ignacio de Velasco"
-          src={catedral02Siv}
+          src={catedral}
           className="w-full h-[230px] md:h-[350px]"
         />
       }
@@ -51,7 +51,7 @@ function Home() {
           isBlurred
           isZoomed
           alt="Monumento de las misiones jesuitas"
-          src={monumento01Siv}
+          src={monument}
           className="w-full h-[230px] md:h-[350px]"
         />
       }
@@ -80,7 +80,7 @@ function Home() {
           isBlurred
           isZoomed
           alt="Vista desde arriba San Ignacio de Velasco"
-          src={vistaSiv}
+          src={viewSiv}
           className="w-full h-[230px] md:h-[350px]"
         />
       }
@@ -109,7 +109,7 @@ function Home() {
           isBlurred
           isZoomed
           alt="Plazuela Pueblo Nuevo"
-          src={plazuela}
+          src={smSquare}
           className="w-full h-[230px] md:h-[350px]"
         />
       }
