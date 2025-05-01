@@ -1,7 +1,7 @@
 import historyData from "@data/historyData.json";
-import catedral from "@assets/catedral02Siv.webp";
-import tallados from "@assets/culture02Siv.webp";
-import balneario from "@assets/represaSiv.webp";
+import catedral from "@assets/images/home/catedral02Siv.webp";
+import tallados from "@assets/images/history/culture02Siv.webp";
+import balneario from "@assets/images/home/represaSiv.webp";
 
 function useHistoryPageData() {
   const images = [catedral, tallados, tallados, catedral, balneario];
