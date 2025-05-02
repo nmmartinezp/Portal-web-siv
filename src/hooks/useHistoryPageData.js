@@ -2,10 +2,11 @@ import historyData from "@data/historyData.json";
 import catedral from "@assets/images/home/catedralSiv.webp";
 import tallados from "@assets/images/history/culture02Siv.webp";
 import balneario from "@assets/images/home/represaSiv.webp";
+import plaza from "@assets/images/history/plazaPrincipalSiv.webp";
 
 function useHistoryPageData() {
   const images = [
-    { img: tallados, alt: "Tallado chiquitano" },
+    { img: plaza, alt: "Plaza Principal San Ignacio de Velasco" },
     { img: catedral, alt: "Iglesica Catedral" },
     { img: tallados, alt: "Tallado chiquitano" },
     { img: catedral, alt: "Iglesica Catedral" },
