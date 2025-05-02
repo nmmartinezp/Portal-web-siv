@@ -18,6 +18,13 @@ function useHistoryPageData() {
     image: !item.image ? images[index].img : item.image,
     altImage: !item.altImage ? images[index].alt : item.altImage,
     space: secuence[index],
+    identifier: item.title
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9\s-]/g, "")
+      .trim()
+      .replace(/\s+/g, "-"),
   }));
   return data;
 }

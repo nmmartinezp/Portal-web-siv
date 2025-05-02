@@ -13,10 +13,13 @@ import {
   useDisclosure,
 } from "@heroui/react";
 import useHistoryPageData from "@hooks/useHistoryPageData";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate, useParams } from "react-router";
 
 function History() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { history } = useParams();
+  const navigate = useNavigate();
   const [dataModal, setDataModal] = useState({
     title: "",
     image: "",
@@ -25,13 +28,27 @@ function History() {
   const data = useHistoryPageData();
   const columns = 12;
 
+  useEffect(() => {
+    if (history) {
+      const index = data.findIndex((entry) => entry.identifier === history);
+      if (index !== -1) {
+        setDataModal({
+          title: data[index].title,
+          image: data[index].image,
+          history: data[index].history,
+        });
+        onOpen();
+      }
+    }
+  }, [history]);
+
   const handleOpen = (index) => {
-    setDataModal({
-      title: data[index].title,
-      image: data[index].image,
-      history: data[index].history,
-    });
-    onOpen();
+    navigate(`/historia/${data[index].identifier}`);
+  };
+
+  const handleClose = () => {
+    onClose();
+    navigate("/historia");
   };
   return (
     <>
@@ -55,7 +72,7 @@ function History() {
       </CardPageLayout>
       <Modal
         isOpen={isOpen}
-        onClose={onClose}
+        onClose={handleClose}
         size="5xl"
         placement="center"
         scrollBehavior="inside"
@@ -69,7 +86,7 @@ function History() {
         }}
       >
         <ModalContent>
-          {(onClose) => (
+          {(handleClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1">
                 {dataModal.title}
@@ -88,7 +105,7 @@ function History() {
                 <ParagraphContent>{dataModal.history}</ParagraphContent>
               </ModalBody>
               <ModalFooter>
-                <Button color="warning" onPress={onClose}>
+                <Button color="warning" onPress={handleClose}>
                   Cerrar
                 </Button>
               </ModalFooter>

@@ -31,7 +31,9 @@ function Footer() {
                 src: "github.svg",
               }}
               className="transition-transform"
-              description="Desarrollador Web"
+              description={
+                <span className="text-foreground-500">Desarrollador Web</span>
+              }
               name="nmmartinezp"
             />
           </PopoverTrigger>

@@ -18,7 +18,16 @@ const router = createBrowserRouter([
       },
       {
         path: "historia",
-        element: <History />,
+        children: [
+          {
+            index: true,
+            element: <History />,
+          },
+          {
+            path: ":history",
+            element: <History />,
+          },
+        ],
       },
       {
         path: "territorio",
