@@ -65,6 +65,7 @@ function History() {
             cols={`col-span-${columns}`}
             col={`md:col-span-${item.space}`}
             key={index}
+            id={index}
           >
             {item.title}
           </CardContent>

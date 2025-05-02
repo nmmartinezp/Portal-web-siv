@@ -12,7 +12,7 @@ function Footer() {
     <div className="flex flex-col items-center justify-center overflow-hidden h-auto">
       <section className="flex flex-col items-center justify-center">
         <div className="flex items-center justify-center p-2">
-          <img src="logoChiquitania01.svg" width={50} className="pr-2" />
+          <img src="/logoChiquitania01.svg" width={50} className="pr-2" />
           <h3 className=" font-bold">SIV WEB</h3>
         </div>
         <article className="w-3/5 text-center p-4">
@@ -28,7 +28,7 @@ function Footer() {
             <User
               as="button"
               avatarProps={{
-                src: "github.svg",
+                src: "/github.svg",
               }}
               className="transition-transform"
               description={

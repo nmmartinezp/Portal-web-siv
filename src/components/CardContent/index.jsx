@@ -10,9 +10,11 @@ function CardContent({
   cols,
   animation = false,
   onPress,
+  id,
 }) {
   return (
     <motion.div
+      id={id}
       className={`${cols} ${col} h-[41vh]`}
       whileHover={{ scale: animation ? 1.03 : 1 }}
       whileTap={{ scale: animation ? 0.99 : 1 }}
