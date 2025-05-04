@@ -28,7 +28,7 @@ function CardReference({ children, image, title, to }) {
           {children}
         </p>
       </div>
-      <Divider className="my-4" />
+      <Divider className="my-4 bg-foreground-300" />
     </div>
   );
 }

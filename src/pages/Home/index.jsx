@@ -23,7 +23,7 @@ function Home() {
           isZoomed
           alt="Iglesia Catedral de San Ignacio de Velasco"
           src={catedral}
-          className="w-full h-[230px] md:h-[350px]"
+          className="w-full h-[230px] md:h-[350px] brightness-90"
         />
       }
       art01={
@@ -52,7 +52,7 @@ function Home() {
           isZoomed
           alt="Monumento de las misiones jesuitas"
           src={monument}
-          className="w-full h-[230px] md:h-[350px]"
+          className="w-full h-[230px] md:h-[350px] brightness-90"
         />
       }
       art02={
@@ -81,7 +81,7 @@ function Home() {
           isZoomed
           alt="Vista desde arriba San Ignacio de Velasco"
           src={viewSiv}
-          className="w-full h-[230px] md:h-[350px]"
+          className="w-full h-[230px] md:h-[350px] brightness-90"
         />
       }
       art03={
@@ -110,7 +110,7 @@ function Home() {
           isZoomed
           alt="Plazuela Pueblo Nuevo"
           src={smSquare}
-          className="w-full h-[230px] md:h-[350px]"
+          className="w-full h-[230px] md:h-[350px] brightness-90"
         />
       }
       art04={
