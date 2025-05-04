@@ -1,18 +1,21 @@
 import { useNavigate } from "react-router";
-import { Button } from "@heroui/react";
+import { Button, Divider } from "@heroui/react";
 import { motion } from "motion/react";
 
 function PresentationCard({ type, title, children, to, animation }) {
   const navigate = useNavigate();
   const x = animation === "left" ? -200 : animation === "right" ? 200 : 0;
-  const handleClick = () => {
+  const handleClick = (event) => {
+    if (event?.target && typeof event.target.blur === "function") {
+      event.target.blur();
+    }
     navigate(to);
   };
   return (
     <div className="flex flex-col justify-evenly md:justify-center items-center md:items-start w-full h-full p-2 md:p-8">
       {type === "principal" ? (
         <motion.h1
-          className="pb-4 md:pb-10 text-center md:text-start text-3xl md:text-5xl text-warning-300 font-medium"
+          className="pb-4 md:pb-6 text-center md:text-start text-3xl md:text-5xl text-warning-300 font-medium"
           initial={{
             opacity: 0,
             x:
@@ -29,7 +32,7 @@ function PresentationCard({ type, title, children, to, animation }) {
         </motion.h1>
       ) : (
         <motion.h2
-          className="pb-4 md:pb-10 text-center md:text-start text-3xl md:text-5xl text-warning-300 font-medium"
+          className="pb-4 md:pb-6 text-center md:text-start text-3xl md:text-5xl text-warning-300 font-medium"
           initial={{
             opacity: 0,
             x:
@@ -46,6 +49,17 @@ function PresentationCard({ type, title, children, to, animation }) {
         </motion.h2>
       )}
       <motion.div
+        className="w-full h-auto"
+        initial={{
+          opacity: 0,
+          x: animation === "left" ? x - 30 : animation === "right" ? x + 30 : 0,
+        }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      >
+        <Divider className="mb-6" />
+      </motion.div>
+      <motion.div
         className="text-justify pb-4 md:pb-10 text-sm md:text-base"
         initial={{
           opacity: 0,
@@ -55,6 +69,17 @@ function PresentationCard({ type, title, children, to, animation }) {
         transition={{ duration: 1 }}
       >
         {children}
+      </motion.div>
+      <motion.div
+        className="w-full h-auto"
+        initial={{
+          opacity: 0,
+          x: animation === "left" ? x - 30 : animation === "right" ? x + 30 : 0,
+        }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      >
+        <Divider className="mb-6" />
       </motion.div>
       <motion.div
         className="w-full md:w-auto"

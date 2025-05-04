@@ -8,6 +8,12 @@ function ScrollReboot({ scrollRef }) {
   useEffect(() => {
     const move =
       backRoute === "/" ? false : pathname.pathname.includes(backRoute);
+    if (
+      document.activeElement &&
+      typeof document.activeElement.blur === "function"
+    ) {
+      document.activeElement.blur();
+    }
     if (!move) {
       if (scrollRef?.current) {
         scrollRef.current.scrollTo({

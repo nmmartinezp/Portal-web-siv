@@ -1,5 +1,6 @@
 import { Card, CardHeader, Image } from "@heroui/react";
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 function CardContent({
   children,
@@ -12,13 +13,26 @@ function CardContent({
   onPress,
   id,
 }) {
+  const [isActive, setIsActive] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsActive(true);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleClick = () => {
+    if (isActive && onPress) {
+      onPress(event);
+    }
+  };
   return (
     <motion.div
       id={id}
       className={`${cols} ${col} h-[41vh]`}
       whileHover={{ scale: animation ? 1.03 : 1 }}
       whileTap={{ scale: animation ? 0.99 : 1 }}
-      onClick={onPress}
+      onClick={handleClick}
     >
       <Card className={`h-full`}>
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
