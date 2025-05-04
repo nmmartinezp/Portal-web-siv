@@ -12,7 +12,7 @@ function PresentationCard({ type, title, children, to, animation }) {
     <div className="flex flex-col justify-evenly md:justify-center items-center md:items-start w-full h-full p-2 md:p-8">
       {type === "principal" ? (
         <motion.h1
-          className="pb-4 md:pb-10 text-center md:text-start text-3xl md:text-5xl"
+          className="pb-4 md:pb-10 text-center md:text-start text-3xl md:text-5xl text-warning-300 font-medium"
           initial={{
             opacity: 0,
             x:
@@ -29,7 +29,7 @@ function PresentationCard({ type, title, children, to, animation }) {
         </motion.h1>
       ) : (
         <motion.h2
-          className="pb-4 md:pb-10 text-center md:text-start text-3xl md:text-5xl"
+          className="pb-4 md:pb-10 text-center md:text-start text-3xl md:text-5xl text-warning-300 font-medium"
           initial={{
             opacity: 0,
             x:
