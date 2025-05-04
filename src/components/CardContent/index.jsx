@@ -29,7 +29,7 @@ function CardContent({
   return (
     <motion.div
       id={id}
-      className={`${cols} ${col} h-[41vh]`}
+      className={`${cols} ${col} h-[41vh] cursor-pointer`}
       whileHover={{ scale: animation ? 1.03 : 1 }}
       whileTap={{ scale: animation ? 0.99 : 1 }}
       onClick={handleClick}

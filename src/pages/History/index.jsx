@@ -138,48 +138,62 @@ function History() {
         </>
       }
       content2={
-        <MenuContent
-          span={"Visita la historia de este municipio"}
-          image={imageMenu}
-        >
-          <div className="col-span-6 md:col-span-3 h-full">
-            <CardReference
-              title="Turismo"
-              image={imageRef}
-              to={"/historia/historia-de-san-ignacio-de-velasco"}
+        <>
+          <MenuContent
+            span={"Visita la historia de este municipio"}
+            image={imageMenu}
+          >
+            <div className="col-span-6 md:col-span-3 h-full">
+              <CardReference
+                title="Turismo"
+                image={imageRef}
+                to={"/historia/historia-de-san-ignacio-de-velasco"}
+              >
+                El mundo de Gumball en 3D solo en cines
+              </CardReference>
+            </div>
+            <div className="col-span-6 md:col-span-3 h-full">
+              <CardReference
+                title="Turismo"
+                image={imageRef}
+                to={"/historia/historia-de-san-ignacio-de-velasco"}
+              >
+                El mundo de Gumball en 3D solo en cines, con la venta exclusiva
+                de 100 manos
+              </CardReference>
+            </div>
+            <div className="col-span-6 md:col-span-3 h-full">
+              <CardReference
+                title="Turismo"
+                image={imageRef}
+                to={"/historia/historia-de-san-ignacio-de-velasco"}
+              >
+                El mundo de Gumball en 3D solo en cines
+              </CardReference>
+            </div>
+            <div className="col-span-6 md:col-span-3 h-full">
+              <CardReference
+                title="Turismo"
+                image={imageRef}
+                to={"/historia/historia-de-san-ignacio-de-velasco"}
+              >
+                El mundo de Gumball en 3D solo en cines
+              </CardReference>
+            </div>
+          </MenuContent>
+          <div className="w-full flex items-center justify-center mb-8">
+            <Button
+              onPress={() => {
+                navigate("/turismo");
+              }}
+              className="p-6 text-xl bg-warning-300"
+              size="lg"
+              radius="md"
             >
-              El mundo de Gumball en 3D solo en cines
-            </CardReference>
+              Visitar el patrimonio
+            </Button>
           </div>
-          <div className="col-span-6 md:col-span-3 h-full">
-            <CardReference
-              title="Turismo"
-              image={imageRef}
-              to={"/historia/historia-de-san-ignacio-de-velasco"}
-            >
-              El mundo de Gumball en 3D solo en cines, con la venta exclusiva de
-              100 manos
-            </CardReference>
-          </div>
-          <div className="col-span-6 md:col-span-3 h-full">
-            <CardReference
-              title="Turismo"
-              image={imageRef}
-              to={"/historia/historia-de-san-ignacio-de-velasco"}
-            >
-              El mundo de Gumball en 3D solo en cines
-            </CardReference>
-          </div>
-          <div className="col-span-6 md:col-span-3 h-full">
-            <CardReference
-              title="Turismo"
-              image={imageRef}
-              to={"/historia/historia-de-san-ignacio-de-velasco"}
-            >
-              El mundo de Gumball en 3D solo en cines
-            </CardReference>
-          </div>
-        </MenuContent>
+        </>
       }
     />
   );

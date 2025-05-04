@@ -1,16 +1,17 @@
 import historyData from "@data/historyData.json";
 import catedral from "@assets/images/photo/catedralSiv.webp";
-import tallados from "@assets/images/photo/culture02Siv.webp";
-import balneario from "@assets/images/photo/represaSiv.webp";
+import represaGuapomo from "@assets/images/photo/represa02Siv.webp";
 import plaza from "@assets/images/photo/plazaPrincipalSiv.webp";
+import nkmParque from "@assets/images/photo/parquenoelkempffmercado02.webp";
+import plazaPrincipal from "@assets/images/photo/plazaPrincipal02Siv.webp";
 
 function useHistoryPageData() {
   const images = [
     { img: plaza, alt: "Plaza Principal San Ignacio de Velasco" },
     { img: catedral, alt: "Iglesica Catedral" },
-    { img: tallados, alt: "Tallado chiquitano" },
-    { img: catedral, alt: "Iglesica Catedral" },
-    { img: balneario, alt: "Balneario de la represa guapomo" },
+    { img: represaGuapomo, alt: "Represa Guapomo" },
+    { img: plazaPrincipal, alt: "Plaza principal 31 de julio" },
+    { img: nkmParque, alt: "Cascadas parque noel kempff mercado" },
   ];
   const secuence = [7, 5, 3, 3, 6];
   const data = historyData.map((item, index) => ({

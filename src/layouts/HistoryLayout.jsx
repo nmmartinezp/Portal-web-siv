@@ -10,7 +10,7 @@ function HistoryLayout({ banner, content1, content2 }) {
         {content1}
       </section>
       <section className="w-full h-auto flex items-center justify-center">
-        <div className="w-full">{content2}</div>
+        <div className="w-full flex flex-col">{content2}</div>
       </section>
     </div>
   );
