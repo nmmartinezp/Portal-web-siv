@@ -30,7 +30,7 @@ function CardContent({
         <Image
           removeWrapper
           alt={atlImage}
-          className="z-0 w-full h-full object-cover brightness-90"
+          className="z-0 w-full h-full object-cover brightness-75"
           src={src}
         />
       </Card>
