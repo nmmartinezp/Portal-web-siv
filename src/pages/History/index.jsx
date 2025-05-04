@@ -2,6 +2,7 @@ import HistoryLayout from "@layouts/HistoryLayout";
 import CardPageLayout from "@layouts/CardPageLayout";
 import CardContent from "@components/CardContent";
 import MenuContent from "@components/MenuContent";
+import CardReference from "@components/CardReference";
 import ParagraphContent from "@components/ParagraphContent";
 import SpringAnimateText from "@components/SpringAnimateText";
 import {
@@ -19,6 +20,7 @@ import useHistoryPageData from "@hooks/useHistoryPageData";
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 import imageMenu from "@assets/images/history/plazaPrincipalSiv.webp";
+import imageRef from "@assets/images/history/catedralSiv.webp";
 
 function History() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -140,10 +142,43 @@ function History() {
           span={"Visita la historia de este municipio"}
           image={imageMenu}
         >
-          <div className="col-span-6 md:col-span-3 h-[20vh] bg-red-300">as</div>
-          <div className="col-span-6 md:col-span-3 h-[20vh] bg-red-300">as</div>
-          <div className="col-span-6 md:col-span-3 h-[20vh] bg-red-300">as</div>
-          <div className="col-span-6 md:col-span-3 h-[20vh] bg-red-300">as</div>
+          <div className="col-span-6 md:col-span-3 h-full">
+            <CardReference
+              title="Turismo"
+              image={imageRef}
+              to={"/historia/historia-de-san-ignacio-de-velasco"}
+            >
+              El mundo de Gumball en 3D solo en cines
+            </CardReference>
+          </div>
+          <div className="col-span-6 md:col-span-3 h-full">
+            <CardReference
+              title="Turismo"
+              image={imageRef}
+              to={"/historia/historia-de-san-ignacio-de-velasco"}
+            >
+              El mundo de Gumball en 3D solo en cines, con la venta exclusiva de
+              100 manos
+            </CardReference>
+          </div>
+          <div className="col-span-6 md:col-span-3 h-full">
+            <CardReference
+              title="Turismo"
+              image={imageRef}
+              to={"/historia/historia-de-san-ignacio-de-velasco"}
+            >
+              El mundo de Gumball en 3D solo en cines
+            </CardReference>
+          </div>
+          <div className="col-span-6 md:col-span-3 h-full">
+            <CardReference
+              title="Turismo"
+              image={imageRef}
+              to={"/historia/historia-de-san-ignacio-de-velasco"}
+            >
+              El mundo de Gumball en 3D solo en cines
+            </CardReference>
+          </div>
         </MenuContent>
       }
     />
