@@ -3,10 +3,10 @@ import Carousel from "@components/Carousel";
 import PresentationCard from "@components/PresentationCard";
 import { Image } from "@heroui/react";
 import useDataCarousel from "@hooks/useDataCarousel";
-import catedral from "@assets/images/home/catedral02Siv.webp";
-import monument from "@assets/images/home/monumento01Siv.webp";
-import smSquare from "@assets/images/home/plazuelaPuebloNuevoSiv.webp";
-import viewSiv from "@assets/images/home/territorioSiv.webp";
+import catedral from "@assets/images/photo/catedral02Siv.webp";
+import monument from "@assets/images/photo/monumento01Siv.webp";
+import smSquare from "@assets/images/photo/plazuelaPuebloNuevoSiv.webp";
+import viewSiv from "@assets/images/photo/territorioSiv.webp";
 
 function Home() {
   const dataCarousel = useDataCarousel();

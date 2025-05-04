@@ -19,8 +19,8 @@ import {
 import useHistoryPageData from "@hooks/useHistoryPageData";
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
-import imageMenu from "@assets/images/history/plazaPrincipalSiv.webp";
-import imageRef from "@assets/images/history/catedralSiv.webp";
+import imageMenu from "@assets/images/photo/plazaPrincipalSiv.webp";
+import imageRef from "@assets/images/photo/catedral03Siv.webp";
 
 function History() {
   const { isOpen, onOpen, onClose } = useDisclosure();

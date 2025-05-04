@@ -1,7 +1,7 @@
-import catedral from "@assets/images/home/catedralSiv.webp";
-import sculpture from "@assets/images/home/culture01Siv.webp";
-import statuette from "@assets/images/home/religionSiv.webp";
-import balneario from "@assets/images/home/represaSiv.webp";
+import catedral from "@assets/images/photo/catedralSiv.webp";
+import sculpture from "@assets/images/photo/culture01Siv.webp";
+import statuette from "@assets/images/photo/religionSiv.webp";
+import balneario from "@assets/images/photo/represaSiv.webp";
 
 function useDataCarousel() {
   const data = [
