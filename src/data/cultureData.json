@@ -1,0 +1,95 @@
+[
+  {
+    "title": "",
+    "subTitle": "",
+    "article": "",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "links": [
+      {
+        "title": "",
+        "link": "",
+        "type": "link"
+      },
+      {
+        "title": "",
+        "link": "",
+        "type": "link"
+      },
+      {
+        "title": "",
+        "link": "",
+        "type": "link"
+      }
+    ],
+    "content": [
+      {
+        "title": "",
+        "description": "",
+        "content": "",
+        "images": [
+          {
+            "src": "",
+            "alt": ""
+          },
+          {
+            "src": "",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "description": "",
+        "content": "",
+        "images": [
+          {
+            "src": "",
+            "alt": ""
+          },
+          {
+            "src": "",
+            "alt": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Manos que cuentan historias: artesanía ignaciana",
+    "subTitle": "Tallado, tejido y tradición que dan forma al alma chiquitana",
+    "article": "San Ignacio de Velasco es reconocido por el talento de sus artesanos, cuyas manos transforman la tradición en arte vivo. En cada tallado de madera, escultura o pieza de cerámica se refleja la herencia de las misiones jesuíticas y la identidad cultural chiquitana.\nLos talladores locales dominan el arte del relieve y la escultura, con figuras religiosas, horcones y mobiliario que adornan templos y hogares. La cerámica, moldeada con técnicas ancestrales, mantiene formas y símbolos propios de la región.\nEn el mundo textil, el bordado chiquitano decora blusas, mantas y prendas típicas con diseños únicos que narran historias de la selva, la fe y la comunidad. La bisutería artesanal y la ropa tradicional fusionan color, identidad y creatividad, convirtiendo cada pieza en un símbolo de orgullo regional.\nEsta riqueza artesanal no solo embellece San Ignacio, sino que también preserva sus raíces, generando identidad, sustento y admiración dentro y fuera del país.",
+    "image": {},
+    "links": [],
+    "content": [
+      {
+        "title": "Tallados",
+        "description": "Arte en madera que conserva el alma de la Chiquitanía",
+        "content": "San Ignacio de Velasco es reconocido por el talento de sus artesanos",
+        "images": []
+      },
+      {
+        "title": "Ceramica",
+        "description": "Tradición moldeada con manos chiquitanas",
+        "content": "San Ignacio de Velasco es reconocido por el talento de sus artesanos",
+        "images": []
+      },
+      {
+        "title": "Mundo textil",
+        "description": "Hilos que tejen identidad y herencia chiquitana",
+        "content": "San Ignacio de Velasco es reconocido por el talento de sus artesanos",
+        "images": []
+      }
+    ]
+  },
+  {
+    "title": "Manos que cuentan historias: artesanía ignaciana",
+    "subTitle": "Tallado, tejido y tradición que dan forma al alma chiquitana",
+    "article": "San Ignacio de Velasco es reconocido por el talento de sus artesanos, cuyas manos transforman la tradición en arte vivo. En cada tallado de madera, escultura o pieza de cerámica se refleja la herencia de las misiones jesuíticas y la identidad cultural chiquitana.\nLos talladores locales dominan el arte del relieve y la escultura, con figuras religiosas, horcones y mobiliario que adornan templos y hogares. La cerámica, moldeada con técnicas ancestrales, mantiene formas y símbolos propios de la región.\nEn el mundo textil, el bordado chiquitano decora blusas, mantas y prendas típicas con diseños únicos que narran historias de la selva, la fe y la comunidad. La bisutería artesanal y la ropa tradicional fusionan color, identidad y creatividad, convirtiendo cada pieza en un símbolo de orgullo regional.\nEsta riqueza artesanal no solo embellece San Ignacio, sino que también preserva sus raíces, generando identidad, sustento y admiración dentro y fuera del país.",
+    "image": {},
+    "links": [],
+    "content": []
+  }
+]

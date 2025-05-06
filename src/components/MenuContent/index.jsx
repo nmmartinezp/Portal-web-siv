@@ -1,8 +1,8 @@
 import { Image } from "@heroui/react";
 
-function MenuContent({ children, image, span }) {
+function MenuContent({ id, children, image, span }) {
   return (
-    <div className="relative w-full h-auto flex flex-col my-8">
+    <div id={id} key={id} className="relative w-full h-auto flex flex-col my-8">
       <div className="w-full h-auto relative z-10 flex flex-col items-center justify-center">
         <div className="h-[21vh] md:h-[42vh] w-5/6 md:w-3/4 flex items-center justify-center text-center font-medium text-3xl md:text-5xl">
           <h4>{span}</h4>

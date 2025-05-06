@@ -35,7 +35,16 @@ const router = createBrowserRouter([
       },
       {
         path: "cultura",
-        element: <Culture />,
+        children: [
+          {
+            index: true,
+            element: <Culture />,
+          },
+          {
+            path: ":article/:culture",
+            element: <Culture />,
+          },
+        ],
       },
       {
         path: "turismo",

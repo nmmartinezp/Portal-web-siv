@@ -1,8 +1,12 @@
 import { Divider } from "@heroui/react";
 
-function Article({ children, title, img, altImg }) {
+function Article({ id, children, title, img, altImg }) {
   return (
-    <div className="w-full h-auto px-4 flex flex-col items-center justify-center">
+    <div
+      id={id}
+      key={id}
+      className="w-full h-auto px-4 flex flex-col items-center justify-center"
+    >
       <h2 className="w-full py-4 text-start text-warning text-3xl md:text-5xl">
         {title}
       </h2>
@@ -12,7 +16,7 @@ function Article({ children, title, img, altImg }) {
         <img
           src={img}
           alt={altImg}
-          className="w-full h-full rounded-md object-cover hover:brightness-50"
+          className="w-full h-full rounded-md object-cover brightness-90 hover:brightness-50"
         />
       </div>
       <Divider className="my-8" />
