@@ -49,7 +49,7 @@ function NavBar() {
       <NavbarContent className="hidden sm:flex gap-4 w-full" justify="center">
         <NavBarItem onNavigate={toHome}>INICIO</NavBarItem>
         <NavBarItem onNavigate={toHistory}>HISTORIA</NavBarItem>
-        <NavBarItem onNavigate={toCulture}>CULUTURA</NavBarItem>
+        <NavBarItem onNavigate={toCulture}>CULTURA</NavBarItem>
         <NavBarItem onNavigate={toTerritory}>TERRITORIO</NavBarItem>
         <NavBarItem onNavigate={toTourism}>TURISMO</NavBarItem>
       </NavbarContent>
@@ -69,7 +69,7 @@ function NavBar() {
           HISTORIA
         </NavBarItem>
         <NavBarItem variant="mobile" onNavigate={toCulture}>
-          CULUTURA
+          CULTURA
         </NavBarItem>
         <NavBarItem variant="mobile" onNavigate={toTerritory}>
           TERRITORIO
