@@ -28,8 +28,8 @@ function Culture() {
   const data = useCulturePageData();
   const [dataModal, setDataModal] = useState({
     title: "",
-    image: "",
-    history: "",
+    images: [],
+    content: "",
   });
 
   useEffect(() => {
@@ -40,8 +40,8 @@ function Culture() {
       if (index !== -1) {
         setDataModal({
           title: data[article].content[index].title,
-          image: data[article].content[index].images[0].src,
-          history: data[article].content[index].content,
+          images: data[article].content[index].images,
+          content: data[article].content[index].content,
         });
         onOpen();
       }
@@ -49,6 +49,11 @@ function Culture() {
   }, [culture, article]);
 
   const handleClose = () => {
+    setDataModal({
+      title: "",
+      images: [],
+      content: "",
+    });
     onClose();
     navigate("/cultura");
   };
@@ -193,17 +198,22 @@ function Culture() {
                 {dataModal.title}
               </ModalHeader>
               <ModalBody className="dark">
-                <div className="w-full h-[30vh] gap-2 grid grid-cols-2">
-                  <Card className="col-span-2 h-full">
-                    <Image
-                      removeWrapper
-                      alt="Card background"
-                      className="z-0 w-full h-full object-cover"
-                      src={dataModal.image}
-                    />
-                  </Card>
+                <div className="w-full h-[30vh] gap-2 grid grid-cols-12">
+                  {dataModal.images.map((img, index) => (
+                    <Card
+                      key={`cardmodal-${index}`}
+                      className="col-span-12 md:col-span-4 h-full"
+                    >
+                      <Image
+                        removeWrapper
+                        alt={img.alt}
+                        className="z-0 w-full h-full object-cover"
+                        src={img.src}
+                      />
+                    </Card>
+                  ))}
                 </div>
-                <ParagraphContent>{dataModal.history}</ParagraphContent>
+                <ParagraphContent>{dataModal.content}</ParagraphContent>
               </ModalBody>
               <ModalFooter>
                 <Button color="warning" onPress={handleClose}>
