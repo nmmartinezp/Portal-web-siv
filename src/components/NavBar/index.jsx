@@ -44,6 +44,9 @@ function NavBar() {
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       className="h-[var(--myapp-navbar--height)]"
+      classnames={{
+        menu: "transition-all duration-1000 ease-in-out transform scale-y-0 origin-top",
+      }}
     >
       {/*Desktop Menu*/}
       <NavbarContent className="hidden sm:flex gap-4 w-full" justify="center">
@@ -61,7 +64,7 @@ function NavBar() {
         />
         <NavbarBrand>San Ignacio de Velasco</NavbarBrand>
       </NavbarContent>
-      <NavbarMenu className="bg-content2-foreground py-8">
+      <NavbarMenu className="bg-content2-foreground py-8 top-[var(--myapp-navbar--height)] !h-[calc(100vh_-_var(--myapp-navbar--height))]">
         <NavBarItem variant="mobile" onNavigate={toHome}>
           INICIO
         </NavBarItem>
