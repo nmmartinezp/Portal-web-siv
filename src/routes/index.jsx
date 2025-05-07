@@ -48,7 +48,16 @@ const router = createBrowserRouter([
       },
       {
         path: "turismo",
-        element: <Tourism />,
+        children: [
+          {
+            index: true,
+            element: <Tourism />,
+          },
+          {
+            path: ":localization",
+            element: <Tourism />,
+          },
+        ],
       },
     ],
   },

@@ -198,7 +198,7 @@ function Culture() {
                 {dataModal.title}
               </ModalHeader>
               <ModalBody className="dark">
-                <div className="w-full h-[30vh] gap-2 grid grid-cols-12">
+                <div className="w-full h-[50vh] md:h-[30vh] gap-2 grid grid-cols-12">
                   {dataModal.images.map((img, index) => (
                     <Card
                       key={`cardmodal-${index}`}

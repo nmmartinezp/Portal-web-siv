@@ -77,24 +77,15 @@ function useCulturePageData() {
     .map((item, index) => ({
       ...item,
       image:
-        item.image && Object.keys(item.image).length === 0
+        item.image && Object.keys(item.image).length <= 0
           ? images[index]
           : item.image,
-      links:
-        Array.isArray(item.links) && item.links.length > 0
-          ? links[index]
-          : Array.isArray(links[index]) && links[index].length > 0
-          ? [...item.links, ...links[index]]
-          : item.links,
+      links: [...item.links, ...links[index]],
       content:
         Array.isArray(item.content) && item.content.length > 0
           ? item.content.map((item, indexSub) => ({
               ...item,
-              images: !item.images
-                ? imagesSet[index][indexSub]
-                : imagesSet[index][indexSub]
-                ? [...item.images, ...imagesSet[index][indexSub]]
-                : item.images,
+              images: [...item.images, ...imagesSet[index][indexSub]],
               identifier: item.title
                 .toLowerCase()
                 .normalize("NFD")
