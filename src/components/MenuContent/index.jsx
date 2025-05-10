@@ -1,6 +1,6 @@
 import { Image } from "@heroui/react";
 
-function MenuContent({ id, children, image, span }) {
+function MenuContent({ id, children, image, altImg, span }) {
   return (
     <div id={id} key={id} className="relative w-full h-auto flex flex-col my-8">
       <div className="w-full h-auto relative z-10 flex flex-col items-center justify-center">
@@ -14,6 +14,7 @@ function MenuContent({ id, children, image, span }) {
       <Image
         removeWrapper
         src={image}
+        alt={altImg}
         className="absolute z-0 w-full h-[25vh] md:h-[50vh] object-cover brightness-50"
         radius="none"
       />

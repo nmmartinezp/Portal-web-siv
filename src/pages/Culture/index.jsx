@@ -82,7 +82,7 @@ function Culture() {
       description={
         <div className="w-full h-full flex items-center justify-center text-start md:text-center">
           <p className="w-full md:w-2/4 text-sm md:text-lg">
-            <SpringAnimateText speed={10}>
+            <SpringAnimateText speed={7}>
               San Ignacio de Velasco, cuna de cultura y tradición, es uno de los
               tesoros de la Chiquitanía boliviana. Conserva viva la herencia de
               las misiones jesuíticas a través de su arquitectura histórica,

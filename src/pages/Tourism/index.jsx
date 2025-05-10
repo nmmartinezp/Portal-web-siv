@@ -84,6 +84,7 @@ function Tourism() {
           <MenuContent
             span={"Aprende mas de la historia de este municipio"}
             image={imageMenu}
+            altImg="Plaza 31 junto a la catedral de san ignacio de velasco"
           >
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
@@ -117,6 +118,7 @@ function Tourism() {
               <CardReference
                 title="Turismo"
                 image={imageRef}
+                altImg="catedral de san ignacio de velasco"
                 to={"/historia/historia-de-san-ignacio-de-velasco"}
               >
                 El mundo de Gumball en 3D solo en cines
@@ -211,7 +213,7 @@ function Tourism() {
                       </span>
                     </div>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30623.855051029976!2d-60.96854251622101!3d-16.374885354744084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93933d8fb4c1fc91%3A0x8d336c8f6518e89e!2sCueva%20de%20Yeso!5e0!3m2!1ses-419!2sbo!4v1746623788806!5m2!1ses-419!2sbo"
+                      src={dataModal.localization}
                       className="w-[97%] md:w-2/4 h-[35vh] md:h-[40vh] rounded-lg"
                       loading="lazy"
                     ></iframe>

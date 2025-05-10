@@ -1,7 +1,7 @@
 import { Divider } from "@heroui/react";
 import { useNavigate } from "react-router";
 
-function CardReference({ id, children, image, title, to }) {
+function CardReference({ id, children, image, altImg, title, to }) {
   const navigate = useNavigate();
 
   const handleTab = () => {
@@ -17,6 +17,7 @@ function CardReference({ id, children, image, title, to }) {
       className="w-auto h-full flex flex-col items-center justify-center"
     >
       <img
+        alt={altImg}
         src={image}
         className="w-full h-[11vh] md:h-[20vh] object-cover brightness-90 rounded-md cursor-pointer hover:brightness-50"
         onClick={handleTab}
