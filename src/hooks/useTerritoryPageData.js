@@ -1,10 +1,13 @@
 import territoryData from "@data/territoryData.json";
-import culture from "@assets/images/photo/culture01Siv.webp";
+import repesaGuapomoArea from "@assets/images/maps/represaGuapomoArea.webp";
 
 function useTerritoryPageData() {
   const images = [
     { src: "", alt: "" },
-    { src: culture, alt: "Escultura en pared de angel" },
+    { src: "", alt: "" },
+    { src: "", alt: "" },
+    { src: "", alt: "" },
+    { src: repesaGuapomoArea, alt: "Área de la represa el guapomó" },
     { src: "", alt: "" },
   ];
   const data = territoryData.map((item, index) => ({

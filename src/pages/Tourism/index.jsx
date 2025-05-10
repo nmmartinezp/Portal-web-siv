@@ -1,9 +1,9 @@
 import TourismLayout from "@layouts/TourismLayout";
+import CardPageLayout from "@layouts/CardPageLayout";
 import SpringAnimateText from "@components/SpringAnimateText";
 import ParagraphContent from "@components/ParagraphContent";
 import MenuContent from "@components/MenuContent";
 import CardReference from "@components/CardReference";
-import CardPageLayout from "@layouts/CardPageLayout";
 import CardContent from "@components/CardContent";
 import {
   Card,
@@ -19,8 +19,11 @@ import {
 import { useNavigate, useParams } from "react-router";
 import { useState, useEffect } from "react";
 import useTourismPageData from "@hooks/useTourismPageData";
-import imageMenu from "@assets/images/photo/plazaPrincipalSiv.webp";
-import imageRef from "@assets/images/photo/catedral03Siv.webp";
+import plazaPrImg from "@assets/images/photo/plazaPrincipalSiv.webp";
+import sanIgnacioImg from "@assets/images/photo/territorioSiv.webp";
+import represaImg from "@assets/images/photo/represa02Siv.webp";
+import plazaPrincipalImg from "@assets/images/photo/plazaPrincipal02Siv.webp";
+import catedralImg from "@assets/images/photo/catedral04Siv.webp";
 
 function Tourism() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -83,45 +86,47 @@ function Tourism() {
         <>
           <MenuContent
             span={"Aprende mas de la historia de este municipio"}
-            image={imageMenu}
+            image={plazaPrImg}
             altImg="Plaza 31 junto a la catedral de san ignacio de velasco"
           >
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
-                title="Turismo"
-                image={imageRef}
+                title="Historia"
+                image={sanIgnacioImg}
                 to={"/historia/historia-de-san-ignacio-de-velasco"}
               >
-                El mundo de Gumball en 3D solo en cines
+                Un pueblo con un pasado creado a partir de una cultura indígena
+                y misional, pasado viviente
               </CardReference>
             </div>
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
-                title="Turismo"
-                image={imageRef}
-                to={"/historia/historia-de-san-ignacio-de-velasco"}
+                title="Historia"
+                image={represaImg}
+                to={"/historia/represa-guapomo"}
               >
-                El mundo de Gumball en 3D solo en cines, con la venta exclusiva
-                de 100 manos
+                Un tesoro de agua que sustento la vida histórica de un pueblo
               </CardReference>
             </div>
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
-                title="Turismo"
-                image={imageRef}
-                to={"/historia/historia-de-san-ignacio-de-velasco"}
+                title="Historia"
+                image={plazaPrincipalImg}
+                to={"/historia/plaza-31-de-julio"}
               >
-                El mundo de Gumball en 3D solo en cines
+                Plaza que fue construida en el inicio de un legado misional, que
+                se convertiría en un centro de historias ignacianas
               </CardReference>
             </div>
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
-                title="Turismo"
-                image={imageRef}
+                title="Historia"
+                image={catedralImg}
                 altImg="catedral de san ignacio de velasco"
-                to={"/historia/historia-de-san-ignacio-de-velasco"}
+                to={"/historia/catedral-de-san-ignacio-de-velasco"}
               >
-                El mundo de Gumball en 3D solo en cines
+                Iglesia construida para convertirse en el centro religioso
+                misional, que marcaría el inicio de una época
               </CardReference>
             </div>
           </MenuContent>
@@ -143,7 +148,7 @@ function Tourism() {
       <>
         <div className="w-full mt-10 md:mt-6 h-full flex flex-col md:flex-row items-center justify-center">
           <h3 className="w-3/4 md:w-2/4 py-2 md:py-2 text-center text-3xl md:text-5xl">
-            <span>¿Que puedes </span>
+            <span>¿Qué puedes </span>
             <span className="text-warning font-medium">visitar?</span>
           </h3>
         </div>
@@ -208,8 +213,7 @@ function Tourism() {
                     <div className="text-2xl text-center p-4">
                       Visita
                       <span className="text-warning">
-                        {" "}
-                        {dataModal.title.toLowerCase()}
+                        {` ${dataModal.title}`}
                       </span>
                     </div>
                     <iframe

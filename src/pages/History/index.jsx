@@ -19,8 +19,11 @@ import {
 import useHistoryPageData from "@hooks/useHistoryPageData";
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
-import imageMenu from "@assets/images/photo/plazaPrincipalSiv.webp";
-import imageRef from "@assets/images/photo/catedral03Siv.webp";
+import plazaPrImg from "@assets/images/photo/plazaPrincipalSiv.webp";
+import catedralImg from "@assets/images/photo/catedral03Siv.webp";
+import plazaPrincipalImg from "@assets/images/photo/plazaPrincipal02Siv.webp";
+import represaImg from "@assets/images/photo/represa03Siv.webp";
+import cuevaImg from "@assets/images/photo/cuevayeso01.webp";
 
 function History() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -66,7 +69,7 @@ function History() {
             </span>
             <span> </span>
             <SpringAnimateText>
-              UN PUEBLO DE PATRIMONIO HISTORICO.
+              UN PUEBLO DE PATRIMONIO HISTÓRICO
             </SpringAnimateText>
           </h2>
         </div>
@@ -141,43 +144,46 @@ function History() {
         <>
           <MenuContent
             span={"Visita la historia de este municipio"}
-            image={imageMenu}
+            image={plazaPrImg}
           >
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
                 title="Turismo"
-                image={imageRef}
-                to={"/historia/historia-de-san-ignacio-de-velasco"}
+                image={catedralImg}
+                to={"/turismo/la-catedral-de-san-ignacio-de-velasco"}
               >
-                El mundo de Gumball en 3D solo en cines
+                La Iglesia sede de la diócesis de San Ignacio de Velasco, y una
+                represantición del legado misional
               </CardReference>
             </div>
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
                 title="Turismo"
-                image={imageRef}
-                to={"/historia/historia-de-san-ignacio-de-velasco"}
+                image={plazaPrincipalImg}
+                to={"/turismo/la-plaza-principal-31-de-julio"}
               >
-                El mundo de Gumball en 3D solo en cines, con la venta exclusiva
-                de 100 manos
+                La plaza más grande del circuito misional, y con una gran
+                diversidad de flora, y representaciones del arte del municipio
               </CardReference>
             </div>
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
                 title="Turismo"
-                image={imageRef}
-                to={"/historia/historia-de-san-ignacio-de-velasco"}
+                image={represaImg}
+                to={"/turismo/la-represa-guapomo"}
               >
-                El mundo de Gumball en 3D solo en cines
+                Una riqueza hídrica conservada y apreciada por los ignacianos,
+                con una de las mejores vistas naturales del municipio
               </CardReference>
             </div>
             <div className="col-span-6 md:col-span-3 h-full">
               <CardReference
                 title="Turismo"
-                image={imageRef}
-                to={"/historia/historia-de-san-ignacio-de-velasco"}
+                image={cuevaImg}
+                to={"/turismo/la-cueva-del-yeso"}
               >
-                El mundo de Gumball en 3D solo en cines
+                Una formación rocosa de épocas jesuitas donde se extraía
+                recursos con mucha utilidad en viviendas y de uso medico
               </CardReference>
             </div>
           </MenuContent>

@@ -16,8 +16,8 @@ function Footer() {
           <h3 className=" font-bold">SIV WEB</h3>
         </div>
         <article className="w-3/5 text-center p-4">
-          Pagina informativa con contenido sobre la historia, cultura, turismo,
-          actualidad de el municipio de San Ignacio de Velasco.
+          Página informativa con contenido sobre la historia, cultura, turismo y
+          actualidad del municipio de San Ignacio de Velasco
         </article>
       </section>
       <Divider className="w-full" />

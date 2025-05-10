@@ -1,6 +1,7 @@
 import tourismData from "@data/tourismData.json";
 import catedral from "@assets/images/photo/catedralSiv.webp";
 import catedral2 from "@assets/images/photo/catedral03Siv.webp";
+import catedral3 from "@assets/images/photo/catedralInteriorSiv.webp";
 import plaza from "@assets/images/photo/plazaPrincipalSiv.webp";
 import plaza2 from "@assets/images/photo/plazaPrincipal02Siv.webp";
 import cuevayeso from "@assets/images/photo/cuevayeso01.webp";
@@ -17,6 +18,10 @@ function useTourismPageData() {
     [
       { src: catedral2, alt: "Catedral de san ignacio de velasco" },
       { src: catedral, alt: "Iglesica Catedral san ignacio de velasco" },
+      {
+        src: catedral3,
+        alt: "Iglesica Catedral por dentro san ignacio de velasco",
+      },
     ],
     [
       { src: cuevayeso, alt: "Cueva del yeso en San Ignacio de Velasco" },

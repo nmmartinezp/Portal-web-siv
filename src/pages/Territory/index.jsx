@@ -6,6 +6,10 @@ import CardExplore from "@components/CardExplore";
 import Article from "@components/Article";
 import ArticleData from "@components/ArticleData";
 import useTerritoryPageData from "@hooks/useTerritoryPageData";
+import velascoMap from "@assets/images/maps/provinciaVelascoMap.webp";
+import parqueNKMImg from "@assets/images/photo/parquenoelkempffmercado.webp";
+import miradorCristoImg from "@assets/images/photo/miradorCristo02Siv.webp";
+import catedralImg from "@assets/images/photo/catedral03Siv.webp";
 import imagen from "@assets/images/photo/represaSiv.webp";
 
 function Territory() {
@@ -39,25 +43,37 @@ function Territory() {
         <div className="w-[95%] md:w-4/5 h-auto my-8 flex items-center justify-center">
           <MenuExplore title="Explora más de San Ignacio de Velasco">
             <div className="col-span-9 md:col-span-6">
-              <CardExplore title="como estas" to={"/historia"} image={imagen}>
-                Hola mundo
+              <CardExplore
+                title="Historia"
+                to={"/historia/parque-noel-kempff-mercado"}
+                image={parqueNKMImg}
+              >
+                Un parque de legado natural que guarda la historia de un gran
+                personaje, Noel Kempff Mercado
               </CardExplore>
             </div>
             <div className="col-span-9 md:col-span-6">
-              {" "}
-              <CardExplore title="como estas" to={"/historia"} image={imagen}>
-                Hola mundo
+              <CardExplore
+                title="Turismo"
+                to={"/turismo/el-mirador-del-cristo"}
+                image={miradorCristoImg}
+              >
+                Uno de los mejores miradores del municipio de San Ignacio, con
+                una gran vista a la represa guapomó
               </CardExplore>
             </div>
             <div className="col-span-9 md:col-span-6">
-              {" "}
-              <CardExplore title="como estas" to={"/historia"} image={imagen}>
-                Hola mundo
+              <CardExplore
+                title="Historia"
+                to={"/historia/catedral-de-san-ignacio-de-velasco"}
+                image={catedralImg}
+              >
+                La creación de la catedral por misioneros jesuítas que dejarían
+                un legado de años
               </CardExplore>
             </div>
             <div className="col-span-9 md:col-span-6">
-              {" "}
-              <CardExplore title="como estas" to={"/historia"} image={imagen}>
+              <CardExplore title="Cultura" to={"/historia"} image={imagen}>
                 Hola mundo
               </CardExplore>
             </div>
@@ -65,6 +81,19 @@ function Territory() {
         </div>
       }
     >
+      <div
+        id={`map-01`}
+        key={`map-01`}
+        className="col-span-12 w-full h-auto flex items-center justify-center"
+      >
+        <div className="w-[95%] md:w-2/4 flex py-8 items-center justify-center border-b-1 border-foreground-300">
+          <img
+            src={velascoMap}
+            alt="mapa territorial provincia velasco"
+            className="w-full rounded-lg"
+          />
+        </div>
+      </div>
       {data.map((item, index) =>
         item.image.src ? (
           <div
