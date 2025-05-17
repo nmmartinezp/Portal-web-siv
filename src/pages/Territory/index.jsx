@@ -10,7 +10,7 @@ import velascoMap from "@assets/images/maps/provinciaVelascoMap.webp";
 import parqueNKMImg from "@assets/images/photo/parquenoelkempffmercado.webp";
 import miradorCristoImg from "@assets/images/photo/miradorCristo02Siv.webp";
 import catedralImg from "@assets/images/photo/catedral03Siv.webp";
-import imagen from "@assets/images/photo/represaSiv.webp";
+import cabildo from "@assets/images/photo/cabildo1Siv.webp";
 
 function Territory() {
   const data = useTerritoryPageData();
@@ -73,8 +73,13 @@ function Territory() {
               </CardExplore>
             </div>
             <div className="col-span-9 md:col-span-6">
-              <CardExplore title="Cultura" to={"/historia"} image={imagen}>
-                Hola mundo
+              <CardExplore
+                title="Cultura"
+                toHashLink={"/cultura#cabildo-indigenal-voz-y-raiz-del-pueblo"}
+                image={cabildo}
+              >
+                Una institución que preserva la cultura y tradiciones de un
+                pueblo que lucha por su identidad
               </CardExplore>
             </div>
           </MenuExplore>

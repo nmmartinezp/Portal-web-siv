@@ -1,43 +1,59 @@
 import culutreData from "@data/cultureData.json";
 import culture from "@assets/images/photo/culture01Siv.webp";
+import tallado1 from "@assets/images/photo/culture02Siv.webp";
+import tallado2 from "@assets/images/photo/talllado01Siv.webp";
+import tallado3 from "@assets/images/photo/tallado02Siv.webp";
+import ceramica1 from "@assets/images/photo/ceramica01.webp";
+import ceramica2 from "@assets/images/photo/ceramica02.webp";
+import ceramica3 from "@assets/images/photo/ceramica03.webp";
+import tejido1 from "@assets/images/photo/tejido01.webp";
+import tejido2 from "@assets/images/photo/tejido02.webp";
+import tejido3 from "@assets/images/photo/tejido03.webp";
+import musica1 from "@assets/images/photo/culturaMusicaSiv.webp";
+import cabildo1 from "@assets/images/photo/cabildo1Siv.webp";
+import religion1 from "@assets/images/photo/religion2Siv.webp";
 
 function useCulturePageData() {
   const images = [
     { src: culture, alt: "Escultura en pared de angel" },
-    { src: culture, alt: "Escultura en pared de angel" },
+    {
+      src: musica1,
+      alt: "Musica barroca y auctoctona en san ignacio de velasco",
+    },
+    {
+      src: cabildo1,
+      alt: "Posesion del cabildo indigenal de san ignacio de velasco",
+    },
+    {
+      src: religion1,
+      alt: "Religion ignaciana",
+    },
   ];
   const links = [
     [
       {
-        title: "Vive el arte de tallado",
-        link: "/historia",
+        title: "Visita la iglesia Catedral",
+        link: "/turismo/la-catedral-de-san-ignacio-de-velasco",
         type: "route",
       },
       {
-        title: "Una herencia artistica",
-        link: "/historia",
-        type: "route",
-      },
-      {
-        title: "En la historia",
-        link: "/historia",
+        title: "Recorre la plaza principal",
+        link: "/turismo/la-plaza-principal-31-de-julio",
         type: "route",
       },
     ],
     [
       {
-        title: "Vive la religion ignaciana",
-        link: "/historia",
+        title: "Aprende de la historia de San Ignacio de Velasco",
+        link: "/historia/historia-de-san-ignacio-de-velasco",
         type: "route",
       },
+    ],
+    [],
+    [
       {
-        title: "Una herencia jesuita",
-        link: "/historia",
-        type: "route",
-      },
-      {
-        title: "En la historia",
-        link: "/historia",
+        title: "La historia del templo Ignaciano",
+        link: "/historia/catedral-de-san-ignacio-de-velasco",
         type: "route",
       },
     ],
@@ -45,32 +61,27 @@ function useCulturePageData() {
   const imagesSet = [
     [
       [
-        { src: culture, alt: "Escultura en pared de angel" },
-        { src: culture, alt: "Escultura en pared de angel" },
+        { src: tallado1, alt: "Tallado y pintado en madera figura de angel" },
+        { src: tallado2, alt: "Tallado de horcón en madera" },
+        { src: tallado3, alt: "Tallado en progeso de angel" },
       ],
       [
-        { src: culture, alt: "Escultura en pared de angel" },
-        { src: culture, alt: "Escultura en pared de angel" },
+        {
+          src: ceramica1,
+          alt: "Mascaras, angeles de barro losa en preparación",
+        },
+        { src: ceramica2, alt: "Macetas, fonderos, fuentes de barro losa" },
+        { src: ceramica3, alt: "Jarrones, pailas de barro losa" },
       ],
       [
-        { src: culture, alt: "Escultura en pared de angel" },
-        { src: culture, alt: "Escultura en pared de angel" },
+        { src: tejido3, alt: "Cubre mesas tejido con diseños chiquitano" },
+        { src: tejido1, alt: "Mantel decorativo" },
+        { src: tejido2, alt: "Manta con diseños chiquitanos" },
       ],
     ],
-    [
-      [
-        { src: culture, alt: "Escultura en pared de angel" },
-        { src: culture, alt: "Escultura en pared de angel" },
-      ],
-      [
-        { src: culture, alt: "Escultura en pared de angel" },
-        { src: culture, alt: "Escultura en pared de angel" },
-      ],
-      [
-        { src: culture, alt: "Escultura en pared de angel" },
-        { src: culture, alt: "Escultura en pared de angel" },
-      ],
-    ],
+    [],
+    [],
+    [],
   ];
   const data = culutreData
     .filter((_, index) => index !== 0)

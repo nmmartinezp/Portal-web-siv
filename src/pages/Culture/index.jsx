@@ -117,7 +117,7 @@ function Culture() {
           <div
             id={`cmu-${index}`}
             key={`cmu-${index}`}
-            className="w-full h-auto flex items-center md:items-start justify-center md:justify-start col-span-12 md:col-span-4 px-4"
+            className="w-full h-auto flex items-center md:items-start justify-center md:justify-start col-span-12 md:col-span-4 pt-[8vh] px-4"
           >
             <div
               id={`csmu-${index}`}
