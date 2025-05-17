@@ -1,4 +1,5 @@
 import ScrollReboot from "@components/scrollReboot";
+import { useScrollToHash } from "@hooks/useScrollToHash";
 import { useLocation } from "react-router";
 import { useRef } from "react";
 
@@ -6,8 +7,10 @@ function AppLayout({ nav, page, footer }) {
   const pathname = useLocation();
   const scrollContainerRef = useRef(null);
   const isHome = pathname.pathname === "/";
+  useScrollToHash(0, 0, "#appMain");
   return (
     <div
+      id="appMain"
       ref={!isHome ? scrollContainerRef : null}
       className={`dark text-foreground bg-background h-screen w-full overflow-y-scroll scrollbar-hide`}
     >
