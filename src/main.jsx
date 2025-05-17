@@ -5,9 +5,7 @@ import Router from "./routes";
 import "@fontsource-variable/oswald";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <HeroUIProvider>
-      <Router />
-    </HeroUIProvider>
-  </StrictMode>
+  <HeroUIProvider>
+    <Router />
+  </HeroUIProvider>
 );

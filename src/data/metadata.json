@@ -1,0 +1,22 @@
+{
+  "/": {
+    "title": "Inicio - San Ignacio de Velasco",
+    "description": "Explora la riqueza cultural, histórica y natural de San Ignacio de Velasco, un destino lleno de tradiciones, paisajes impresionantes y vida local auténtica."
+  },
+  "/historia": {
+    "title": "Historia - San Ignacio de Velasco",
+    "description": "Sumérgete en la fascinante historia de San Ignacio de Velasco, desde sus orígenes fundacionales hasta su evolución como un importante centro cultural y social."
+  },
+  "/cultura": {
+    "title": "Cultura - San Ignacio de Velasco",
+    "description": "Descubre las expresiones culturales de San Ignacio de Velasco, incluyendo artesanía, cerámica, textiles y tradiciones que definen la identidad de su gente."
+  },
+  "/territorio": {
+    "title": "Territorio - San Ignacio de Velasco",
+    "description": "Conoce el territorio de San Ignacio de Velasco, su geografía, biodiversidad y los valiosos recursos naturales que forman parte de esta región única."
+  },
+  "/turismo": {
+    "title": "Turismo - San Ignacio de Velasco",
+    "description": "Descubre los principales atractivos turísticos de San Ignacio de Velasco, desde maravillas naturales hasta sitios históricos que no puedes dejar de visitar."
+  }
+}

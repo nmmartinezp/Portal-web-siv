@@ -2,13 +2,13 @@ import { Outlet } from "react-router";
 import AppLayout from "@layouts/AppLayout";
 import NavBar from "@components/NavBar";
 import Footer from "@components/Footer";
-import TitleUpdater from "@components/TitleUpdater";
+import HeadUpdater from "@components/HeadUpdater";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <TitleUpdater />
+      <HeadUpdater />
       <AppLayout nav={<NavBar />} page={<Outlet />} footer={<Footer />} />
     </>
   );
