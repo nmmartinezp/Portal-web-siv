@@ -5,16 +5,17 @@ import data from "@data/metadata.json";
 function HeadUpdater() {
   const location = useLocation();
   const path = location.pathname;
-
-  const { title, description } = data[path] || {
-    title: "San Ignacio de Velasco",
-    description: "Municipio turístico y cultural de Bolivia.",
-  };
+  const meta = data[path] || data["/"];
 
   return (
     <Helmet>
-      <title>{title}</title>
-      <meta name="description" content={description} />
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      {meta.schema && (
+        <script type="application/ld+json">
+          {JSON.stringify(meta.schema)}
+        </script>
+      )}
     </Helmet>
   );
 }
