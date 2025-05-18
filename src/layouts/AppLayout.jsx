@@ -1,4 +1,4 @@
-import ScrollReboot from "@components/scrollReboot";
+import ScrollReboot from "@components/ScrollReboot";
 import { useScrollToHash } from "@hooks/useScrollToHash";
 import { useLocation } from "react-router";
 import { useRef } from "react";
