@@ -132,13 +132,8 @@ function Culture() {
                     showAnchorIcon
                     underline="hover"
                     color="primary"
-                    className="py-1"
-                    onPress={
-                      itemLink.type === "route"
-                        ? () => navigate(itemLink.link)
-                        : () => {}
-                    }
-                    href={itemLink.type === "link" ? () => itemLink.link : ""}
+                    className="py-1 cursor-pointer"
+                    onPress={() => navigate(itemLink.link)}
                   >
                     {itemLink.title}
                   </Link>
