@@ -32,6 +32,7 @@ function Article({ id, children, title, img, altImg }) {
         <img
           src={img}
           alt={altImg}
+          loading="lazy"
           className="w-full h-full rounded-md object-cover brightness-90 hover:brightness-50"
         />
       </div>

@@ -19,6 +19,7 @@ function Home() {
       carosusel={<Carousel data={dataCarousel} />}
       pt01={
         <Image
+          loading="lazy"
           isBlurred
           isZoomed
           alt="Iglesia Catedral de San Ignacio de Velasco"
@@ -48,6 +49,7 @@ function Home() {
       }
       pt02={
         <Image
+          loading="lazy"
           isBlurred
           isZoomed
           alt="Monumento de las misiones jesuitas"
@@ -77,6 +79,7 @@ function Home() {
       }
       pt03={
         <Image
+          loading="lazy"
           isBlurred
           isZoomed
           alt="Vista desde arriba San Ignacio de Velasco"
@@ -106,6 +109,7 @@ function Home() {
       }
       pt04={
         <Image
+          loading="lazy"
           isBlurred
           isZoomed
           alt="Plazuela Pueblo Nuevo"

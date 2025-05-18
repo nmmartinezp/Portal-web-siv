@@ -22,6 +22,7 @@ function CardExplore({ id, children, to, toHashLink = "#", image, title }) {
         className="w-[35%] md:w-[45%] h-[10vh] md:h-[18vh]"
       >
         <img
+          loading="lazy"
           src={image}
           className="w-full h-full object-cover brightness-90 rounded-md cursor-pointer hover:brightness-50"
           onClick={to ? handleTab : () => {}}

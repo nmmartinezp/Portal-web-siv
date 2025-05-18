@@ -12,6 +12,7 @@ function MenuContent({ id, children, image, altImg, span }) {
         </div>
       </div>
       <Image
+        loading="lazy"
         removeWrapper
         src={image}
         alt={altImg}
