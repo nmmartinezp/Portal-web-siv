@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 
 function HomeLayout({
   animexPicture,
-  animexArticule,
   duration,
   carosusel,
   pt01,
@@ -14,6 +13,8 @@ function HomeLayout({
   pt04,
   art04,
 }) {
+  const computedAnimation = window.innerWidth <= 540 ? 0 : animexPicture;
+  const computedDuration = window.innerWidth <= 540 ? 0 : duration;
   const sectionStyle =
     "w-full h-[var(--myapp-main-height)] px-2 flex items-center justify-center snap-start";
   const divContainerStyle =
@@ -32,40 +33,24 @@ function HomeLayout({
         <div className={`${divContainerStyle}`}>
           <motion.div
             className={`${divPictureStyle}`}
-            initial={{ opacity: 0, x: animexPicture }}
+            initial={{ opacity: 0, x: computedAnimation }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: duration }}
+            transition={{ duration: computedDuration }}
             viewport={{ once: true, amount: 0.2 }}
           >
             {pt01}
           </motion.div>
-          <motion.article
-            className={`${articuleStyle}`}
-            initial={{ opacity: 0, x: animexArticule }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: duration }}
-            viewport={{ once: true }}
-          >
-            {art01}
-          </motion.article>
+          <article className={`${articuleStyle}`}>{art01}</article>
         </div>
       </section>
       <section className={`${sectionStyle}`}>
         <div className={`${divContainerStyle}`}>
-          <motion.article
-            className={`${articuleStyle}`}
-            initial={{ opacity: 0, x: -animexArticule }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: duration }}
-            viewport={{ once: true }}
-          >
-            {art02}
-          </motion.article>
+          <article className={`${articuleStyle}`}>{art02}</article>
           <motion.div
             className={`${divPictureStyle}`}
-            initial={{ opacity: 0, x: -animexPicture }}
+            initial={{ opacity: 0, x: -computedAnimation }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: duration }}
+            transition={{ duration: computedDuration }}
             viewport={{ once: true }}
           >
             {pt02}
@@ -76,40 +61,24 @@ function HomeLayout({
         <div className={`${divContainerStyle}`}>
           <motion.div
             className={`${divPictureStyle}`}
-            initial={{ opacity: 0, x: animexPicture }}
+            initial={{ opacity: 0, x: computedAnimation }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: duration }}
+            transition={{ duration: computedDuration }}
             viewport={{ once: true }}
           >
             {pt03}
           </motion.div>
-          <motion.article
-            className={`${articuleStyle}`}
-            initial={{ opacity: 0, x: animexArticule }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: duration }}
-            viewport={{ once: true }}
-          >
-            {art03}
-          </motion.article>
+          <article className={`${articuleStyle}`}>{art03}</article>
         </div>
       </section>
       <section className={`${sectionStyle}`}>
         <div className={`${divContainerStyle}`}>
-          <motion.article
-            className={`${articuleStyle}`}
-            initial={{ opacity: 0, x: -animexArticule }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: duration }}
-            viewport={{ once: true }}
-          >
-            {art04}
-          </motion.article>
+          <article className={`${articuleStyle}`}>{art04}</article>
           <motion.div
             className={`${divPictureStyle}`}
-            initial={{ opacity: 0, x: -animexPicture }}
+            initial={{ opacity: 0, x: -computedAnimation }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: duration }}
+            transition={{ duration: computedDuration }}
             viewport={{ once: true }}
           >
             {pt04}

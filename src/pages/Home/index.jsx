@@ -13,7 +13,6 @@ function Home() {
 
   return (
     <HomeLayout
-      animexArticule={200}
       animexPicture={250}
       duration={1}
       carosusel={<Carousel data={dataCarousel} />}
@@ -35,15 +34,13 @@ function Home() {
           animation="right"
         >
           <p className="pb-4">
-            San Ignacio de Velasco, joya cultural de la Chiquitania boliviana.
-            Este encantador municipio boliviano combina historia viva,
+            Este encantador municipio de la chiquitania combina historia viva,
             arquitectura misional y tradiciones que perduran en el tiempo.
           </p>
           <p>
-            Rodeado de paisajes naturales únicos, puerta de entrada a reservas
-            ecológicas y hogar de una rica herencia cultural, la calidez de su
-            gente y el sonido de la música barroca en festivales únicos hacen de
-            este lugar un destino inolvidable.
+            Puerta de entrada a reservas ecológicas y hogar de una rica herencia
+            cultural, el sonido de la música barroca en festivales únicos hacen
+            de este lugar un destino inolvidable.
           </p>
         </PresentationCard>
       }
@@ -70,11 +67,6 @@ function Home() {
             espiritualidad europea y la sabiduría ancestral de los pueblos
             indígenas chiquitanos.
           </p>
-          <p>
-            Tras la expulsión de los jesuitas en 1767, la comunidad mantuvo viva
-            esta herencia con orgullo, transmitiendo conocimientos y tradiciones
-            de generación en generación.
-          </p>
         </PresentationCard>
       }
       pt03={
@@ -100,11 +92,6 @@ function Home() {
             extensos del país, caracterizado por una geografía diversa que
             abarca llanuras, sabanas, bosques tropicales y serranías.
           </p>
-          <p>
-            Su territorio incluye parte de la Reserva de Vida Silvestre Tucavaca
-            y está próximo al Parque Nacional Noel Kempff Mercado, una de las
-            áreas de mayor biodiversidad en Sudamérica.
-          </p>
         </PresentationCard>
       }
       pt04={
@@ -129,11 +116,6 @@ function Home() {
             Noel Kempff Mercado, uno de los más biodiversos del mundo, hasta la
             visita a sus misiones jesuíticas restauradas, patrimonio de la
             humanidad.
-          </p>
-          <p>
-            Los viajeros pueden disfrutar de actividades como el ecoturismo, el
-            avistamiento de fauna, caminatas por la selva, o simplemente
-            relajarse en un ambiente rural lleno de historia y tradición.
           </p>
         </PresentationCard>
       }

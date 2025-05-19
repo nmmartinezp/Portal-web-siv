@@ -4,13 +4,22 @@ import { motion } from "motion/react";
 
 function PresentationCard({ type, title, children, to, animation }) {
   const navigate = useNavigate();
-  const x = animation === "left" ? -200 : animation === "right" ? 200 : 0;
+  const x =
+    window.innerWidth <= 540
+      ? 0
+      : animation === "left"
+      ? -200
+      : animation === "right"
+      ? 200
+      : 0;
   const handleClick = (event) => {
     if (event?.target && typeof event.target.blur === "function") {
       event.target.blur();
     }
     navigate(to);
   };
+  const xTitle = window.innerWidth <= 540 ? 0 : 70;
+  const xDivider = window.innerWidth <= 540 ? 0 : 30;
   return (
     <div className="flex flex-col justify-evenly md:justify-center items-center md:items-start w-full h-full p-2 md:p-8">
       {type === "principal" ? (
@@ -20,9 +29,9 @@ function PresentationCard({ type, title, children, to, animation }) {
             opacity: 0,
             x:
               animation === "left"
-                ? x - 70
+                ? x - xTitle
                 : animation === "right"
-                ? x + 70
+                ? x + xTitle
                 : 0,
           }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -37,9 +46,9 @@ function PresentationCard({ type, title, children, to, animation }) {
             opacity: 0,
             x:
               animation === "left"
-                ? x - 70
+                ? x - xTitle
                 : animation === "right"
-                ? x + 70
+                ? x + xTitle
                 : 0,
           }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -52,7 +61,12 @@ function PresentationCard({ type, title, children, to, animation }) {
         className="w-full h-auto"
         initial={{
           opacity: 0,
-          x: animation === "left" ? x - 30 : animation === "right" ? x + 30 : 0,
+          x:
+            animation === "left"
+              ? x - xDivider
+              : animation === "right"
+              ? x + xDivider
+              : 0,
         }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
@@ -63,7 +77,12 @@ function PresentationCard({ type, title, children, to, animation }) {
         className="text-justify pb-4 md:pb-10 text-sm md:text-base"
         initial={{
           opacity: 0,
-          x: animation === "left" ? x - 30 : animation === "right" ? x + 30 : 0,
+          x:
+            animation === "left"
+              ? x - xDivider
+              : animation === "right"
+              ? x + xDivider
+              : 0,
         }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
@@ -74,7 +93,12 @@ function PresentationCard({ type, title, children, to, animation }) {
         className="w-full h-auto"
         initial={{
           opacity: 0,
-          x: animation === "left" ? x - 30 : animation === "right" ? x + 30 : 0,
+          x:
+            animation === "left"
+              ? x - xDivider
+              : animation === "right"
+              ? x + xDivider
+              : 0,
         }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
