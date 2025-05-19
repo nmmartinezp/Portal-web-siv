@@ -2,6 +2,7 @@
   "/": {
     "title": "San Ignacio de Velasco",
     "description": "Explora la riqueza cultural, histórica y natural de San Ignacio de Velasco, un destino lleno de tradiciones, paisajes impresionantes y vida local auténtica.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/",
     "schema": {
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -13,6 +14,7 @@
   "/historia": {
     "title": "Historia - San Ignacio de Velasco",
     "description": "Sumérgete en la fascinante historia de San Ignacio de Velasco, desde sus orígenes fundacionales hasta su evolución como un importante centro cultural y social.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia",
     "schema": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
@@ -24,6 +26,7 @@
   "/cultura": {
     "title": "Cultura - San Ignacio de Velasco",
     "description": "Descubre las expresiones culturales de San Ignacio de Velasco, incluyendo artesanía, cerámica, textiles y tradiciones que definen la identidad de su gente.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/cultura",
     "schema": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
@@ -35,6 +38,7 @@
   "/territorio": {
     "title": "Territorio - San Ignacio de Velasco",
     "description": "Conoce el territorio de San Ignacio de Velasco, su geografía, biodiversidad y los valiosos recursos naturales que forman parte de esta región única.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/territorio",
     "schema": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
@@ -46,6 +50,7 @@
   "/turismo": {
     "title": "Turismo - San Ignacio de Velasco",
     "description": "Descubre los principales atractivos turísticos de San Ignacio de Velasco, desde maravillas naturales hasta sitios históricos que no puedes dejar de visitar.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo",
     "schema": {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
@@ -57,6 +62,7 @@
   "/historia/historia-de-san-ignacio-de-velasco": {
     "title": "Historia de San Ignacio de Velasco",
     "description": "Explora los orígenes y acontecimientos clave que dieron forma a San Ignacio de Velasco.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/historia-de-san-ignacio-de-velasco",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -85,6 +91,7 @@
   "/historia/catedral-de-san-ignacio-de-velasco": {
     "title": "Historia de la Catedral de San Ignacio de Velasco",
     "description": "Conoce la historia, arquitectura y legado cultural de la emblemática catedral ignaciana.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/catedral-de-san-ignacio-de-velasco",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -113,6 +120,7 @@
   "/historia/represa-guapomo": {
     "title": "Historia de la Represa Guapomo",
     "description": "Descubre el papel histórico y funcional de la represa Guapomo en San Ignacio de Velasco.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/represa-guapomo",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -141,6 +149,7 @@
   "/historia/plaza-31-de-julio": {
     "title": "Historia de la Plaza 31 de Julio",
     "description": "Historia y significado de la plaza principal de San Ignacio, epicentro de la vida local.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/plaza-31-de-julio",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -169,6 +178,7 @@
   "/historia/parque-noel-kempff-mercado": {
     "title": " Historia del Parque Noel Kempff Mercado",
     "description": "Una mirada histórica a uno de los parques naturales más importantes de Bolivia.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/parque-noel-kempff-mercado",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -197,6 +207,7 @@
   "/turismo/la-catedral-de-san-ignacio-de-velasco": {
     "title": "Visita la Catedral de San Ignacio de Velasco",
     "description": "Información turística para conocer la impresionante catedral barroca misional.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-catedral-de-san-ignacio-de-velasco",
     "schema": {
       "@context": "https://schema.org",
       "@type": "TouristAttraction",
@@ -214,6 +225,7 @@
   "/turismo/la-cueva-del-yeso": {
     "title": "Visita La Cueva del Yeso",
     "description": "Explora esta formación natural única cercana a San Ignacio de Velasco.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-cueva-del-yeso",
     "schema": {
       "@context": "https://schema.org",
       "@type": "TouristAttraction",
@@ -231,6 +243,7 @@
   "/turismo/la-represa-guapomo": {
     "title": "Visita La Represa Guapomo",
     "description": "Disfruta del turismo ecológico y la tranquilidad de este cuerpo de agua natural.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-represa-guapomo",
     "schema": {
       "@context": "https://schema.org",
       "@type": "TouristAttraction",
@@ -248,6 +261,7 @@
   "/turismo/el-mirador-del-cristo": {
     "title": "Visita El Mirador del Cristo",
     "description": "Un punto panorámico ideal para admirar San Ignacio y su entorno natural.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/el-mirador-del-cristo",
     "schema": {
       "@context": "https://schema.org",
       "@type": "TouristAttraction",
@@ -265,6 +279,7 @@
   "/turismo/la-plaza-principal-31-de-julio": {
     "title": "Visita La Plaza Principal 31 de Julio",
     "description": "Descubre la vida social y el atractivo turístico de la plaza central de San Ignacio.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-plaza-principal-31-de-julio",
     "schema": {
       "@context": "https://schema.org",
       "@type": "TouristAttraction",
@@ -282,6 +297,7 @@
   "/cultura/0/tallados": {
     "title": "Arte en Tallado Ignaciano",
     "description": "Conoce las técnicas y significados del arte tallado típico de San Ignacio.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/tallados",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -310,6 +326,7 @@
   "/cultura/0/ceramica": {
     "title": "Cerámica Tradicional",
     "description": "Explora las formas, colores y herencia cultural de la cerámica ignaciana.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/ceramica",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -338,6 +355,7 @@
   "/cultura/0/mundo-textil": {
     "title": "Mundo Textil",
     "description": "Sumérgete en los tejidos, bordados y vestimenta tradicional de San Ignacio.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/mundo-textil",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",

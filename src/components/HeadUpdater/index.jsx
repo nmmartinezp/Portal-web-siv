@@ -10,6 +10,7 @@ function HeadUpdater() {
   return (
     <Helmet>
       <title>{meta.title}</title>
+      <link rel="canonical" href={meta.canonical} />
       <meta name="description" content={meta.description} />
       {meta.schema && (
         <script type="application/ld+json">
