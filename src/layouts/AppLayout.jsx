@@ -18,8 +18,10 @@ function AppLayout({ nav, page, footer }) {
       {nav}
       <main
         ref={isHome ? scrollContainerRef : null}
-        className={`w-full h-[var(--myapp-main-height)] p-0 scrollbar-hide overflow-x-hidden ${
-          isHome ? "overflow-y-scroll snap-y snap-mandatory scroll-smooth" : ""
+        className={`w-full h-[var(--myapp-main-height)] p-0 scrollbar-hide ${
+          isHome
+            ? "overflow-x-hidden overflow-y-scroll snap-y snap-mandatory scroll-smooth"
+            : ""
         }`}
       >
         {page}
