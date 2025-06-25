@@ -1,0 +1,384 @@
+{
+  "/": {
+    "title": "San Ignacio de Velasco",
+    "description": "Explora la riqueza cultural, histórica y natural de San Ignacio de Velasco, un destino lleno de tradiciones, paisajes impresionantes y vida local auténtica.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Ignacio de Velasco",
+      "description": "Página principal con la presentación general del municipio de San Ignacio de Velasco, su historia, cultura, territorio y turismo.",
+      "url": "https://sanignaciodevelasco.vercel.app/"
+    }
+  },
+  "/historia": {
+    "title": "Historia - San Ignacio de Velasco",
+    "description": "Sumérgete en la fascinante historia de San Ignacio de Velasco, desde sus orígenes fundacionales hasta su evolución como un importante centro cultural y social.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Historia de San Ignacio de Velasco",
+      "description": "Descubre la historia del municipio de San Ignacio de Velasco a través de relatos y sitios históricos.",
+      "url": "https://sanignaciodevelasco.vercel.app/historia"
+    }
+  },
+  "/cultura": {
+    "title": "Cultura - San Ignacio de Velasco",
+    "description": "Descubre las expresiones culturales de San Ignacio de Velasco, incluyendo artesanía, cerámica, textiles y tradiciones que definen la identidad de su gente.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/cultura",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Cultura de San Ignacio de Velasco",
+      "description": "Explora la cultura del municipio: costumbres, música, religión, textiles, organizaciones y más.",
+      "url": "https://sanignaciodevelasco.vercel.app/cultura"
+    }
+  },
+  "/territorio": {
+    "title": "Territorio - San Ignacio de Velasco",
+    "description": "Conoce el territorio de San Ignacio de Velasco, su geografía, biodiversidad y los valiosos recursos naturales que forman parte de esta región única.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/territorio",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Territorio de San Ignacio de Velasco",
+      "description": "Información sobre la geografía, límites y demografía del municipio de San Ignacio de Velasco.",
+      "url": "https://sanignaciodevelasco.vercel.app/territorio"
+    }
+  },
+  "/turismo": {
+    "title": "Turismo - San Ignacio de Velasco",
+    "description": "Descubre los principales atractivos turísticos de San Ignacio de Velasco, desde maravillas naturales hasta sitios históricos que no puedes dejar de visitar.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Turismo en San Ignacio de Velasco",
+      "description": "Descubre los principales destinos turísticos del municipio de San Ignacio de Velasco.",
+      "url": "https://sanignaciodevelasco.vercel.app/turismo"
+    }
+  },
+  "/historia/historia-de-san-ignacio-de-velasco": {
+    "title": "Historia de San Ignacio de Velasco",
+    "description": "Explora los orígenes y acontecimientos clave que dieron forma a San Ignacio de Velasco.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/historia-de-san-ignacio-de-velasco",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Historia de San Ignacio de Velasco",
+      "description": "Relato histórico detallado sobre el origen y evolución del municipio de San Ignacio de Velasco.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/plazaPrincipalSiv-BxjmJDAq.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Nisse Maximiliano Martinez Pardo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Ignacio de Velasco Website",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg"
+        }
+      },
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanignaciodevelasco.vercel.app/historia/historia-de-san-ignacio-de-velasco"
+      }
+    }
+  },
+  "/historia/catedral-de-san-ignacio-de-velasco": {
+    "title": "Historia de la Catedral de San Ignacio de Velasco",
+    "description": "Conoce la historia, arquitectura y legado cultural de la emblemática catedral ignaciana.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/catedral-de-san-ignacio-de-velasco",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Historia de la Catedral de San Ignacio de Velasco",
+      "description": "Relato histórico detallado sobre el origen y evolución de la Catedral de San Ignacio de Velasco.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/catedralSiv-BeGTJXyW.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Nisse Maximiliano Martinez Pardo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Ignacio de Velasco Website",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg"
+        }
+      },
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanignaciodevelasco.vercel.app/historia/catedral-de-san-ignacio-de-velasco"
+      }
+    }
+  },
+  "/historia/represa-guapomo": {
+    "title": "Historia de la Represa Guapomo",
+    "description": "Descubre el papel histórico y funcional de la represa Guapomo en San Ignacio de Velasco.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/represa-guapomo",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Historia de la Represa Guapomo",
+      "description": "Relato histórico detallado sobre el origen y evolución de la Represa Guapomo.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/represa02Siv-DhGsoYna.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Nisse Maximiliano Martinez Pardo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Ignacio de Velasco Website",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg"
+        }
+      },
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanignaciodevelasco.vercel.app/historia/represa-guapomo"
+      }
+    }
+  },
+  "/historia/plaza-31-de-julio": {
+    "title": "Historia de la Plaza 31 de Julio",
+    "description": "Historia y significado de la plaza principal de San Ignacio, epicentro de la vida local.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/plaza-31-de-julio",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Historia de la Plaza 31 de Julio",
+      "description": "Relato histórico detallado sobre el origen y evolución de la Plaza 31 de Julio.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/plazaPrincipal02Siv-nKDJ8whN.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Nisse Maximiliano Martinez Pardo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Ignacio de Velasco Website",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg"
+        }
+      },
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanignaciodevelasco.vercel.app/historia/plaza-31-de-julio"
+      }
+    }
+  },
+  "/historia/parque-noel-kempff-mercado": {
+    "title": " Historia del Parque Noel Kempff Mercado",
+    "description": "Una mirada histórica a uno de los parques naturales más importantes de Bolivia.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/parque-noel-kempff-mercado",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Historia del Parque Noel Kempff Mercado",
+      "description": "Relato histórico detallado sobre el origen y evolución del Parque Noel Kempff Mercado.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/parquenoelkempffmercado02-CF-7FZoj.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Nisse Maximiliano Martinez Pardo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Ignacio de Velasco Website",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg"
+        }
+      },
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanignaciodevelasco.vercel.app/parque-noel-kempff-mercado"
+      }
+    }
+  },
+  "/turismo/la-catedral-de-san-ignacio-de-velasco": {
+    "title": "Visita la Catedral de San Ignacio de Velasco",
+    "description": "Información turística para conocer la impresionante catedral barroca misional.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-catedral-de-san-ignacio-de-velasco",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "TouristAttraction",
+      "name": "La Catedral de San Ignacio de Velasco",
+      "description": "Un importante sitio turístico y religioso en el corazón de San Ignacio.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/catedral03Siv-GKlO5n_f.webp",
+      "url": "https://sanignaciodevelasco.vercel.app/turismo/la-catedral-de-san-ignacio-de-velasco",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -16.372942131564614,
+        "longitude": -60.9600901693175
+      }
+    }
+  },
+  "/turismo/la-cueva-del-yeso": {
+    "title": "Visita La Cueva del Yeso",
+    "description": "Explora esta formación natural única cercana a San Ignacio de Velasco.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-cueva-del-yeso",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "TouristAttraction",
+      "name": "La Cueva del Yeso",
+      "description": "Un importante sitio turístico y con memorias sobre las antiguas tecnicas de construcción.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/cuevayeso01-DiZYMT_P.webp",
+      "url": "https://sanignaciodevelasco.vercel.app/turismo/la-cueva-del-yeso",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -16.37302448155963,
+        "longitude": -60.96024037301187
+      }
+    }
+  },
+  "/turismo/la-represa-guapomo": {
+    "title": "Visita La Represa Guapomo",
+    "description": "Disfruta del turismo ecológico y la tranquilidad de este cuerpo de agua natural.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-represa-guapomo",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "TouristAttraction",
+      "name": "La Represa Guapomo",
+      "description": "Un importante sitio turístico y recurso hidrologico para el municipio de San Ignacio de Velasco.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/represaSiv-DeuHl18K.webp",
+      "url": "https://sanignaciodevelasco.vercel.app/turismo/la-represa-guapomo",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -16.363216341510704,
+        "longitude": -60.96327591534127
+      }
+    }
+  },
+  "/turismo/el-mirador-del-cristo": {
+    "title": "Visita El Mirador del Cristo",
+    "description": "Un punto panorámico ideal para admirar San Ignacio y su entorno natural.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/el-mirador-del-cristo",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "TouristAttraction",
+      "name": "El Mirador del Cristo",
+      "description": "Un buen sitio turístico y lugar ideal para apreciar una gran vista panorámica.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/miradorCristo01Siv-Z9dDrVwg.webp",
+      "url": "https://sanignaciodevelasco.vercel.app/turismo/el-mirador-del-cristo",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -16.359524856147104,
+        "longitude": -60.95553267726998
+      }
+    }
+  },
+  "/turismo/la-plaza-principal-31-de-julio": {
+    "title": "Visita La Plaza Principal 31 de Julio",
+    "description": "Descubre la vida social y el atractivo turístico de la plaza central de San Ignacio.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-plaza-principal-31-de-julio",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "TouristAttraction",
+      "name": "La Plaza Principal 31 de Julio",
+      "description": "Uno de los sitios turísticos mas importante guarda una larga historia.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/plazaPrincipalSiv-BxjmJDAq.webp",
+      "url": "https://sanignaciodevelasco.vercel.app/turismo/la-plaza-principal-31-de-julio",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -16.37375507006486,
+        "longitude": -60.96004991534126
+      }
+    }
+  },
+  "/cultura/0/tallados": {
+    "title": "Arte en Tallado Ignaciano",
+    "description": "Conoce las técnicas y significados del arte tallado típico de San Ignacio.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/tallados",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Tallados en San Ignacio de Velasco",
+      "description": "Artículo cultural que describe la tradición de tallados en madera dentro del municipio.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/culture02Siv-DE9njxH4.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Nisse Maximiliano Martinez Pardo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Ignacio de Velasco Website",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg"
+        }
+      },
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanignaciodevelasco.vercel.app/cultura/0/tallados"
+      }
+    }
+  },
+  "/cultura/0/ceramica": {
+    "title": "Cerámica Tradicional",
+    "description": "Explora las formas, colores y herencia cultural de la cerámica ignaciana.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/ceramica",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "El arte de la cerámica en San Ignacio de Velasco",
+      "description": "Artículo cultural que describe la tradición de la cerámica con barro losa dentro del municipio.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/ceramica01-B0a-vfXp.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Nisse Maximiliano Martinez Pardo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Ignacio de Velasco Website",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg"
+        }
+      },
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanignaciodevelasco.vercel.app/cultura/0/ceramica"
+      }
+    }
+  },
+  "/cultura/0/mundo-textil": {
+    "title": "Mundo Textil",
+    "description": "Sumérgete en los tejidos, bordados y vestimenta tradicional de San Ignacio.",
+    "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/mundo-textil",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Mundo textil en San Ignacio de Velasco",
+      "description": "Artículo cultural que describe la tradición al tejer, modelar, pintar sobre prendas textiles dentro del municipio.",
+      "image": "https://sanignaciodevelasco.vercel.app/assets/tejido03-CK11er8l.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Nisse Maximiliano Martinez Pardo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "San Ignacio de Velasco Website",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg"
+        }
+      },
+      "datePublished": "2025-01-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sanignaciodevelasco.vercel.app/cultura/0/mundo-textil"
+      }
+    }
+  }
+}

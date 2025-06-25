@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sanignaciodevelasco.vercel.app/sitemap.xml
