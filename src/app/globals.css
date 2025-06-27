@@ -7,17 +7,9 @@
   --myapp-main-height: 93vh;
 }
 
-body {
-  overflow-y: scroll;
-  scrollbar-width: 0;
-  -ms-overflow-style: none;
-}
-body::-webkit-scrollbar {
-  display: none;
-}
-
 html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Oswald Variable", sans-serif;
 }

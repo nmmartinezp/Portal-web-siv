@@ -1,5 +1,5 @@
 import { HeroUIProvider } from "@heroui/react";
-import { roboto } from "@/styles/fonts";
+import { oswald } from "@/styles/fonts";
 import "./globals.css";
 
 export const metadata = {
@@ -12,11 +12,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
-      <body className={`${roboto.className}`}>
+    <html lang="es" className="scrollbar-hide overflow-x-hidden">
+      <body className={`${oswald.className} scrollbar-hide overflow-x-hidden`}>
         <HeroUIProvider>
           <div
-            className={`dark text-foreground bg-background min-w-[100vw] min-h-[100vh] p-0 m-0`}
+            className={`dark text-foreground bg-background min-w-[100vw] min-h-[100vh] p-0 m-0 overflow-x-hidden scrollbar-hide`}
           >
             {children}
           </div>

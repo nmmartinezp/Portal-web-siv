@@ -25,7 +25,7 @@ function NavBar({ menuOpen, onToggle }) {
       isBordered
       isMenuOpen={menuOpen}
       onMenuOpenChange={onToggle}
-      className="h-[var(--myapp-navbar--height)] bg-gradient-to-r from-warning-300/50 to-primary-200/50 backdrop-blur-sm"
+      className="fixed h-[var(--myapp-navbar--height)] bg-gradient-to-r from-warning-300/50 to-primary-200/50 backdrop-blur-sm"
       classnames={{
         menu: "transition-all duration-1000 ease-in-out transform scale-y-0 origin-top",
       }}

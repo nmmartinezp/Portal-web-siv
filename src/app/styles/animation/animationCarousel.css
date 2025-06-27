@@ -1,0 +1,39 @@
+.slide-0 {
+  animation: fade 28s ease-in-out infinite;
+  animation-delay: 0s;
+}
+.slide-1 {
+  animation: fade 28s ease-in-out infinite;
+  animation-delay: 7s;
+}
+.slide-2 {
+  animation: fade 28s ease-in-out infinite;
+  animation-delay: 14s;
+}
+.slide-3 {
+  animation: fade 28s ease-in-out infinite;
+  animation-delay: 21s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    z-index: 10;
+  }
+  5% {
+    opacity: 1;
+    z-index: 10;
+  }
+  23% {
+    opacity: 1;
+    z-index: 10;
+  }
+  30% {
+    opacity: 0;
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: 1;
+  }
+}

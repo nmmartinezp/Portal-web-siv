@@ -1,0 +1,26 @@
+[
+  {
+    "src": "/assets/images/photo/catedralSiv.webp",
+    "title": "El Pueblo de San Ignacio de Velasco",
+    "description": "Le puso el nombre de San Ignacio de Loyola, hoy San Ignacio de Velasco. Este fue el punto de partida de una gran iglesia, la más grande y ostentosa de toda la región.",
+    "navigate": "/historia"
+  },
+  {
+    "src": "/assets/images/photo/religionSiv.webp",
+    "title": "Tradiciones vivas en San Ignacio de Velasco",
+    "description": "La cultura tradicional es muy rica, edificios jesuitas, música, instrumentos de cultura chiquitana.",
+    "navigate": "/cultura"
+  },
+  {
+    "src": "/assets/images/photo/culture01Siv.webp",
+    "title": "San Ignacio Tierra chiquitana",
+    "description": "La ciudad es sede de la Diócesis de San Ignacio de Velasco, con jurisdicción de las provincias Velasco, Chiquitos, Ángel Sandoval y Germán Busch.",
+    "navigate": "/territorio"
+  },
+  {
+    "src": "/assets/images/photo/represaSiv.webp",
+    "title": "Visita el patrimonio de San Ignacio de Velasco",
+    "description": "Riqueza histórica, arqueológica, arquitectónica y la diversidad de recursos naturales y sus manifestaciones culturales con una identidad propia.",
+    "navigate": "/turismo"
+  }
+]
