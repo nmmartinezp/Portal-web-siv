@@ -294,7 +294,7 @@
       }
     }
   },
-  "/cultura/0/tallados": {
+  "tallados": {
     "title": "Arte en Tallado Ignaciano",
     "description": "Conoce las técnicas y significados del arte tallado típico de San Ignacio.",
     "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/tallados",
@@ -323,7 +323,7 @@
       }
     }
   },
-  "/cultura/0/ceramica": {
+  "ceramica": {
     "title": "Cerámica Tradicional",
     "description": "Explora las formas, colores y herencia cultural de la cerámica ignaciana.",
     "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/ceramica",
@@ -352,7 +352,7 @@
       }
     }
   },
-  "/cultura/0/mundo-textil": {
+  "mundo-textil": {
     "title": "Mundo Textil",
     "description": "Sumérgete en los tejidos, bordados y vestimenta tradicional de San Ignacio.",
     "canonical": "https://sanignaciodevelasco.vercel.app/cultura/0/mundo-textil",

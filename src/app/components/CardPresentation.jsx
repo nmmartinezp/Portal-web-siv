@@ -61,7 +61,7 @@ function CardPresentation({
     </div>
   );
   return (
-    <div className="w-full h-full grid grid-cols-12">
+    <article className="w-full h-full grid grid-cols-12">
       {direction === "right" ? (
         <>
           <ImagePanel />
@@ -75,7 +75,7 @@ function CardPresentation({
       ) : (
         <></>
       )}
-    </div>
+    </article>
   );
 }
 

@@ -7,13 +7,15 @@ function Footer() {
       className="w-full h-auto bg-zinc-700 py-5 flex flex-col items-center justify-center"
     >
       <section className="flex flex-col items-center justify-center">
-        <div className="flex items-center justify-center p-2">
-          <img src="/logoChiquitania01.svg" width={50} className="pr-2" />
-          <h3 className="font-bold">SIV WEB</h3>
-        </div>
-        <article className="w-3/5 text-center p-4">
-          Página informativa con contenido sobre la historia, cultura, turismo y
-          actualidad del municipio de San Ignacio de Velasco
+        <article className="flex flex-col items-center justify-center">
+          <div className="flex items-center justify-center p-2">
+            <img src="/logoChiquitania01.svg" width={50} className="pr-2" />
+            <h3 className="font-bold">SIV WEB</h3>
+          </div>
+          <p className="w-3/5 text-center p-4">
+            Página informativa con contenido sobre la historia, cultura, turismo
+            y actualidad del municipio de San Ignacio de Velasco
+          </p>
         </article>
       </section>
       <Divider className="w-full" />

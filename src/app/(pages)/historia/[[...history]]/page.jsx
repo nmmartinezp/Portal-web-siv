@@ -9,37 +9,79 @@ import SchemaScript from "@/components/controller/SchemaScript";
 import { getHistories } from "@/lib/getData/getHistoryData";
 import metadata from "@/data/metadata.json";
 
-export async function generateMetadata() {
-  const meta = metadata["history"];
+export async function generateMetadata({ params }) {
+  const { history } = await params;
 
-  return {
-    title: meta.title,
-    description: meta.description,
-    alternates: {
-      canonical: meta.canonical,
-    },
-    openGraph: {
+  if (history === undefined) {
+    const meta = metadata["history"];
+
+    return {
       title: meta.title,
       description: meta.description,
-      url: meta.canonical,
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: meta.title,
-      description: meta.description,
-    },
-    other: {
-      schema: JSON.stringify(meta.schema),
-    },
-  };
+      alternates: {
+        canonical: meta.canonical,
+      },
+      openGraph: {
+        title: meta.title,
+        description: meta.description,
+        url: meta.canonical,
+        type: "website",
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: meta.title,
+        description: meta.description,
+      },
+      other: {
+        schema: JSON.stringify(meta.schema),
+      },
+    };
+  } else {
+    const meta = metadata[history];
+
+    if (!meta) {
+      return {
+        title: "no se econtro pagina 404",
+        description: "no se econtro",
+      };
+    } else {
+      return {
+        title: meta.title,
+        description: meta.description,
+        alternates: {
+          canonical: meta.canonical,
+        },
+        openGraph: {
+          title: meta.title,
+          description: meta.description,
+          url: meta.canonical,
+          type: "article",
+          images: [
+            {
+              url: meta.schema.image,
+              alt: meta.title,
+            },
+          ],
+        },
+        twitter: {
+          card: "summary_large_image",
+          title: meta.title,
+          description: meta.description,
+          images: [meta.schema.image],
+        },
+        other: {
+          schema: JSON.stringify(meta.schema),
+        },
+      };
+    }
+  }
 }
 
 async function History({ params }) {
-  const meta = metadata["history"];
   const { history } = await params;
   const historiesData = await getHistories();
   const BlockTitle = history !== undefined ? "h2" : "h1";
+  const meta = history === undefined ? metadata["history"] : undefined;
 
   const InterfaceHistory = () => (
     <>
@@ -56,7 +98,7 @@ async function History({ params }) {
       <section className="w-full h-auto flex items-center justify-center py-4 px-8 md:px-28">
         <div className="grid grid-cols-12 gap-3">
           {historiesData.map((item, index) => (
-            <div
+            <article
               id={`cardContainer-${item.identifier}`}
               key={`cardContainer-${item.identifier}`}
               className={`h-[38vh] md:h-[41vh] cursor-pointer ease-in-out duration-150 hover:scale-[1.03] col-span-12 md:col-span-${item.space}`}
@@ -85,7 +127,7 @@ async function History({ params }) {
                   />
                 </Card>
               </Link>
-            </div>
+            </article>
           ))}
         </div>
       </section>
@@ -125,7 +167,7 @@ async function History({ params }) {
           </Link>
         </Button>
       </section>
-      <SchemaScript schema={meta.schema} />
+      {meta && <SchemaScript schema={meta.schema} />}
     </>
   );
 

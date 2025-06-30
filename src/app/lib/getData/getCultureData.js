@@ -1,31 +1,21 @@
-import culutreData from "@data/cultureData.json";
-import culture from "@assets/images/photo/culture01Siv.webp";
-import tallado1 from "@assets/images/photo/culture02Siv.webp";
-import tallado2 from "@assets/images/photo/talllado01Siv.webp";
-import tallado3 from "@assets/images/photo/tallado02Siv.webp";
-import ceramica1 from "@assets/images/photo/ceramica01.webp";
-import ceramica2 from "@assets/images/photo/ceramica02.webp";
-import ceramica3 from "@assets/images/photo/ceramica03.webp";
-import tejido1 from "@assets/images/photo/tejido01.webp";
-import tejido2 from "@assets/images/photo/tejido02.webp";
-import tejido3 from "@assets/images/photo/tejido03.webp";
-import musica1 from "@assets/images/photo/culturaMusicaSiv.webp";
-import cabildo1 from "@assets/images/photo/cabildo1Siv.webp";
-import religion1 from "@assets/images/photo/religion2Siv.webp";
+import culutreData from "@/data/cultureData.json";
 
-function useCulturePageData() {
+export function getCultureData() {
   const images = [
-    { src: culture, alt: "Escultura en pared de angel" },
     {
-      src: musica1,
+      src: "/assets/images/photo/culture01Siv.webp",
+      alt: "Escultura en pared de angel",
+    },
+    {
+      src: "/assets/images/photo/culturaMusicaSiv.webp",
       alt: "Musica barroca y auctoctona en san ignacio de velasco",
     },
     {
-      src: cabildo1,
+      src: "/assets/images/photo/cabildo1Siv.webp",
       alt: "Posesion del cabildo indigenal de san ignacio de velasco",
     },
     {
-      src: religion1,
+      src: "/assets/images/photo/religion2Siv.webp",
       alt: "Religion ignaciana",
     },
   ];
@@ -53,7 +43,7 @@ function useCulturePageData() {
     [
       {
         title: "La historia del templo Ignaciano",
-        link: "/historia/catedral-de-san-ignacio-de-velasco",
+        link: "/historia/historia-de-la-catedral-de-san-ignacio-de-velasco",
         type: "route",
       },
     ],
@@ -61,22 +51,43 @@ function useCulturePageData() {
   const imagesSet = [
     [
       [
-        { src: tallado1, alt: "Tallado y pintado en madera figura de angel" },
-        { src: tallado2, alt: "Tallado de horcón en madera" },
-        { src: tallado3, alt: "Tallado en progeso de angel" },
+        {
+          src: "/assets/images/photo/culture02Siv.webp",
+          alt: "Tallado y pintado en madera figura de angel",
+        },
+        {
+          src: "/assets/images/photo/talllado01Siv.webp",
+          alt: "Tallado de horcón en madera",
+        },
+        {
+          src: "/assets/images/photo/tallado02Siv.webp",
+          alt: "Tallado en progeso de angel",
+        },
       ],
       [
         {
-          src: ceramica1,
+          src: "/assets/images/photo/ceramica01.webp",
           alt: "Mascaras, angeles de barro losa en preparación",
         },
-        { src: ceramica2, alt: "Macetas, fonderos, fuentes de barro losa" },
-        { src: ceramica3, alt: "Jarrones, pailas de barro losa" },
+        {
+          src: "/assets/images/photo/ceramica02.webp",
+          alt: "Macetas, fonderos, fuentes de barro losa",
+        },
+        {
+          src: "/assets/images/photo/ceramica03.webp",
+          alt: "Jarrones, pailas de barro losa",
+        },
       ],
       [
-        { src: tejido3, alt: "Cubre mesas tejido con diseños chiquitano" },
-        { src: tejido1, alt: "Mantel decorativo" },
-        { src: tejido2, alt: "Manta con diseños chiquitanos" },
+        {
+          src: "/assets/images/photo/tejido03.webp",
+          alt: "Cubre mesas tejido con diseños chiquitano",
+        },
+        { src: "/assets/images/photo/tejido01.webp", alt: "Mantel decorativo" },
+        {
+          src: "/assets/images/photo/tejido02.webp",
+          alt: "Manta con diseños chiquitanos",
+        },
       ],
     ],
     [],
@@ -116,5 +127,3 @@ function useCulturePageData() {
     }));
   return data;
 }
-
-export default useCulturePageData;

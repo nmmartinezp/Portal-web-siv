@@ -35,12 +35,16 @@ function ModalView({ title, children, closeHref }) {
             transition={{ duration: 0.2, ease: "easeInOut", delay: 0.2 }}
             className="dark bg-foreground-50 text-foreground opacity-0 flex flex-col justify-between w-[97%] md:w-3/4 min-h-[30vh] max-h-[95vh] md:max-h-[90vh] rounded-2xl z-50"
           >
-            <section className="w-full h-16 border-b-1 border-zinc-600 flex items-center justify-start px-6">
-              <h1 className="text-foreground text-lg font-semibold">{title}</h1>
-            </section>
-            <section className="w-full flex flex-col p-6 text-base max-h-[70vh] md:max-h-[60vh] overflow-y-auto">
-              {children}
-            </section>
+            <article className="w-full h-auto">
+              <section className="w-full h-16 border-b-1 border-zinc-600 flex items-center justify-start px-6">
+                <h1 className="text-foreground text-lg font-semibold">
+                  {title}
+                </h1>
+              </section>
+              <section className="w-full flex flex-col p-6 text-base max-h-[70vh] md:max-h-[60vh] overflow-y-auto">
+                {children}
+              </section>
+            </article>
             <section className="w-full h-16 border-t-1 border-zinc-600">
               <div className="w-full h-full flex items-center justify-end px-6">
                 <Button

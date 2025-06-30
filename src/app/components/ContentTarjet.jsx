@@ -2,14 +2,26 @@ import { Divider } from "@heroui/react";
 import Link from "next/link";
 import Image from "next/image";
 
-function ContentTarjet({ id, children, src, altImg, title, href }) {
+function ContentTarjet({
+  id,
+  children,
+  src,
+  altImg,
+  title,
+  href,
+  scrollNavigate = true,
+}) {
   return (
-    <div
+    <article
       id={id}
       key={id}
       className="w-auto h-full flex flex-col items-center justify-center"
     >
-      <Link href={href} className="w-full h-[11vh] md:h-[20vh]">
+      <Link
+        href={href}
+        scroll={scrollNavigate}
+        className="w-full h-[11vh] md:h-[20vh]"
+      >
         <Image
           priority={true}
           alt={altImg}
@@ -23,12 +35,12 @@ function ContentTarjet({ id, children, src, altImg, title, href }) {
         <h5>{title}</h5>
       </div>
       <div className="w-full h-full text-justify">
-        <Link href={href}>
+        <Link href={href} scroll={scrollNavigate}>
           <p className="cursor-pointer hover:text-warning-400">{children}</p>
         </Link>
       </div>
       <Divider className="my-4 bg-foreground-300" />
-    </div>
+    </article>
   );
 }
 

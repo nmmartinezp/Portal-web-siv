@@ -3,7 +3,7 @@ import Footer from "@/ui/Footer";
 
 function AppLayout({ children }) {
   return (
-    <div className="w-screen min-h-[100vh] h-screen p-0 m-0 overflow-x-hidden scrollbar-hide">
+    <div className="w-screen min-h-[100vh] h-screen p-0 m-0 overflow-x-hidden scrollbar-hide scroll-smooth">
       <NavBarProvider />
       {children}
       <Footer />
