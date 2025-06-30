@@ -1,11 +1,4 @@
-import {
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  User,
-  Divider,
-  Link,
-} from "@heroui/react";
+import { User, Divider, Link } from "@heroui/react";
 
 function Footer() {
   return (
@@ -26,32 +19,29 @@ function Footer() {
       <Divider className="w-full" />
       <section className="p-2 flex items-center justify-center">
         <span className="pr-4">Desarrollo por</span>
-        <Popover showArrow placement="bottom" backdrop={"blur"} offset={10}>
-          <PopoverTrigger>
-            <User
-              as="button"
-              avatarProps={{
-                src: "/github.svg",
-              }}
-              className="transition-transform"
-              description={
-                <span className="text-foreground-500">Desarrollador Web</span>
-              }
-              name="nmmartinezp"
-            />
-          </PopoverTrigger>
-          <PopoverContent className="p-4">
-            <Link
-              isBlock
-              isExternal
-              showAnchorIcon
-              color="primary"
-              href="https://mail.google.com/mail/?view=cm&to=martinezpardonisse@gmail.com"
-            >
-              Correo de contacto
-            </Link>
-          </PopoverContent>
-        </Popover>
+        <Link
+          isBlock
+          isExternal
+          showAnchorIcon
+          color="warning"
+          href="https://mail.google.com/mail/?view=cm&to=martinezpardonisse@gmail.com"
+        >
+          <User
+            as="button"
+            avatarProps={{
+              src: "/github.svg",
+            }}
+            className="transition-transform"
+            description={
+              <span className="text-foreground-500">Desarrollador Web</span>
+            }
+            name={
+              <span className="text-foreground-700 font-semibold text-md">
+                nmmartinezp
+              </span>
+            }
+          />
+        </Link>
       </section>
     </footer>
   );

@@ -1,5 +1,5 @@
 {
-  "/": {
+  "home": {
     "title": "San Ignacio de Velasco",
     "description": "Explora la riqueza cultural, histórica y natural de San Ignacio de Velasco, un destino lleno de tradiciones, paisajes impresionantes y vida local auténtica.",
     "canonical": "https://sanignaciodevelasco.vercel.app/",
@@ -11,7 +11,7 @@
       "url": "https://sanignaciodevelasco.vercel.app/"
     }
   },
-  "/historia": {
+  "history": {
     "title": "Historia - San Ignacio de Velasco",
     "description": "Sumérgete en la fascinante historia de San Ignacio de Velasco, desde sus orígenes fundacionales hasta su evolución como un importante centro cultural y social.",
     "canonical": "https://sanignaciodevelasco.vercel.app/historia",
@@ -23,7 +23,7 @@
       "url": "https://sanignaciodevelasco.vercel.app/historia"
     }
   },
-  "/cultura": {
+  "culture": {
     "title": "Cultura - San Ignacio de Velasco",
     "description": "Descubre las expresiones culturales de San Ignacio de Velasco, incluyendo artesanía, cerámica, textiles y tradiciones que definen la identidad de su gente.",
     "canonical": "https://sanignaciodevelasco.vercel.app/cultura",
@@ -35,7 +35,7 @@
       "url": "https://sanignaciodevelasco.vercel.app/cultura"
     }
   },
-  "/territorio": {
+  "territory": {
     "title": "Territorio - San Ignacio de Velasco",
     "description": "Conoce el territorio de San Ignacio de Velasco, su geografía, biodiversidad y los valiosos recursos naturales que forman parte de esta región única.",
     "canonical": "https://sanignaciodevelasco.vercel.app/territorio",
@@ -47,7 +47,7 @@
       "url": "https://sanignaciodevelasco.vercel.app/territorio"
     }
   },
-  "/turismo": {
+  "tourism": {
     "title": "Turismo - San Ignacio de Velasco",
     "description": "Descubre los principales atractivos turísticos de San Ignacio de Velasco, desde maravillas naturales hasta sitios históricos que no puedes dejar de visitar.",
     "canonical": "https://sanignaciodevelasco.vercel.app/turismo",
@@ -59,7 +59,7 @@
       "url": "https://sanignaciodevelasco.vercel.app/turismo"
     }
   },
-  "/historia/historia-de-san-ignacio-de-velasco": {
+  "historia-de-san-ignacio-de-velasco": {
     "title": "Historia de San Ignacio de Velasco",
     "description": "Explora los orígenes y acontecimientos clave que dieron forma a San Ignacio de Velasco.",
     "canonical": "https://sanignaciodevelasco.vercel.app/historia/historia-de-san-ignacio-de-velasco",
@@ -88,7 +88,7 @@
       }
     }
   },
-  "/historia/catedral-de-san-ignacio-de-velasco": {
+  "historia-de-la-catedral-de-san-ignacio-de-velasco": {
     "title": "Historia de la Catedral de San Ignacio de Velasco",
     "description": "Conoce la historia, arquitectura y legado cultural de la emblemática catedral ignaciana.",
     "canonical": "https://sanignaciodevelasco.vercel.app/historia/catedral-de-san-ignacio-de-velasco",
@@ -117,7 +117,7 @@
       }
     }
   },
-  "/historia/represa-guapomo": {
+  "historia-de-la-represa-guapomo": {
     "title": "Historia de la Represa Guapomo",
     "description": "Descubre el papel histórico y funcional de la represa Guapomo en San Ignacio de Velasco.",
     "canonical": "https://sanignaciodevelasco.vercel.app/historia/represa-guapomo",
@@ -146,7 +146,7 @@
       }
     }
   },
-  "/historia/plaza-31-de-julio": {
+  "historia-de-la-plaza-31-de-julio": {
     "title": "Historia de la Plaza 31 de Julio",
     "description": "Historia y significado de la plaza principal de San Ignacio, epicentro de la vida local.",
     "canonical": "https://sanignaciodevelasco.vercel.app/historia/plaza-31-de-julio",
@@ -175,7 +175,7 @@
       }
     }
   },
-  "/historia/parque-noel-kempff-mercado": {
+  "historia-de-el-parque-noel-kempff-mercado": {
     "title": " Historia del Parque Noel Kempff Mercado",
     "description": "Una mirada histórica a uno de los parques naturales más importantes de Bolivia.",
     "canonical": "https://sanignaciodevelasco.vercel.app/historia/parque-noel-kempff-mercado",

@@ -11,6 +11,15 @@ const config = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    {
+      pattern: /col-span-(\d+)/,
+    },
+    {
+      pattern: /col-span-(\d+)/,
+      variants: ["md"],
+    },
+  ],
   theme: {
     extend: {},
   },

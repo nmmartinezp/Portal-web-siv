@@ -1,8 +1,37 @@
 import CarouselContent from "@/components/Carousel/CarouselContent";
 import CardPresentation from "@/components/CardPresentation";
+import SchemaScript from "@/components/controller/SchemaScript";
 import dataCarousel from "@/data/dataCarousel.json";
+import metadata from "@/data/metadata.json";
+
+export async function generateMetadata() {
+  const meta = metadata["home"];
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: meta.canonical,
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: meta.canonical,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+    },
+    other: {
+      schema: JSON.stringify(meta.schema),
+    },
+  };
+}
 
 export default function Home() {
+  const meta = metadata["home"];
   return (
     <main className="w-full min-h-[var(--myapp-main-height)] flex flex-col items-center justify-center pt-[var(--myapp-navbar--height)]">
       <CarouselContent data={dataCarousel} />
@@ -10,7 +39,7 @@ export default function Home() {
         <div className="w-full">
           <CardPresentation
             title={"San Ignacio de Velasco"}
-            href={"#mainfooter"}
+            href={"/cultura"}
             src={"/assets/images/photo/catedral02Siv.webp"}
             altSrc={"Catedral de San Ignacio de Velasco"}
             direction="right"
@@ -82,6 +111,7 @@ export default function Home() {
           </CardPresentation>
         </div>
       </section>
+      <SchemaScript schema={meta.schema} />
     </main>
   );
 }
