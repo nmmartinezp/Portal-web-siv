@@ -1,13 +1,15 @@
-import territoryData from "@data/territoryData.json";
-import repesaGuapomoArea from "@assets/images/maps/represaGuapomoArea.webp";
+import territoryData from "@/data/territoryData.json";
 
-function useTerritoryPageData() {
+export function getTerritoryData() {
   const images = [
     { src: "", alt: "" },
     { src: "", alt: "" },
     { src: "", alt: "" },
     { src: "", alt: "" },
-    { src: repesaGuapomoArea, alt: "Área de la represa el guapomó" },
+    {
+      src: "/assets/images/maps/represaGuapomoArea.webp",
+      alt: "Área de la represa el guapomó",
+    },
     { src: "", alt: "" },
   ];
   const data = territoryData.map((item, index) => ({
@@ -16,5 +18,3 @@ function useTerritoryPageData() {
   }));
   return data;
 }
-
-export default useTerritoryPageData;

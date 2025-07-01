@@ -17,18 +17,21 @@ function IllustratedArticle({ id, children, title, img, altImg }) {
       key={id}
       className="w-full h-auto flex flex-col items-center justify-center"
     >
-      <h2 className="w-full pb-4 text-start text-warning text-3xl md:text-5xl">
-        {`${title} `}
+      <section className="w-full flex gap-1 items-center justify-start text-3xl md:text-5xl pb-4">
+        <h2 className="text-start text-warning">{`${title} `}</h2>
         <Link
           href={`#${articleId}`}
-          className="text-primary-300 opacity-50 hover:underline"
+          className="text-primary-300 opacity-25 hover:underline hover:opacity-90"
         >
           #
         </Link>
-      </h2>
-      <div className="w-full py-2 text-medium md:text-lg">{children}</div>
+      </section>
+
+      <section className="w-full py-2 text-medium md:text-lg">
+        {children}
+      </section>
       <Divider className="my-8" />
-      <div className="w-full h-[25vh] md:h-[41vh]">
+      <section className="w-full h-[25vh] md:h-[41vh]">
         <Image
           priority={true}
           src={img}
@@ -37,7 +40,7 @@ function IllustratedArticle({ id, children, title, img, altImg }) {
           height={500}
           className="w-full h-full rounded-md object-cover brightness-90 hover:brightness-50"
         />
-      </div>
+      </section>
       <Divider className="my-8" />
     </article>
   );
