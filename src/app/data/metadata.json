@@ -91,7 +91,7 @@
   "historia-de-la-catedral-de-san-ignacio-de-velasco": {
     "title": "Historia de la Catedral de San Ignacio de Velasco",
     "description": "Conoce la historia, arquitectura y legado cultural de la emblemática catedral ignaciana.",
-    "canonical": "https://sanignaciodevelasco.vercel.app/historia/catedral-de-san-ignacio-de-velasco",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/historia-de-la-catedral-de-san-ignacio-de-velasco",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -113,14 +113,14 @@
       "datePublished": "2025-01-01",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://sanignaciodevelasco.vercel.app/historia/catedral-de-san-ignacio-de-velasco"
+        "@id": "https://sanignaciodevelasco.vercel.app/historia/historia-de-la-catedral-de-san-ignacio-de-velasco"
       }
     }
   },
   "historia-de-la-represa-guapomo": {
     "title": "Historia de la Represa Guapomo",
     "description": "Descubre el papel histórico y funcional de la represa Guapomo en San Ignacio de Velasco.",
-    "canonical": "https://sanignaciodevelasco.vercel.app/historia/represa-guapomo",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/historia-de-la-represa-guapomo",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -142,14 +142,14 @@
       "datePublished": "2025-01-01",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://sanignaciodevelasco.vercel.app/historia/represa-guapomo"
+        "@id": "https://sanignaciodevelasco.vercel.app/historia/historia-de-la-represa-guapomo"
       }
     }
   },
   "historia-de-la-plaza-31-de-julio": {
     "title": "Historia de la Plaza 31 de Julio",
     "description": "Historia y significado de la plaza principal de San Ignacio, epicentro de la vida local.",
-    "canonical": "https://sanignaciodevelasco.vercel.app/historia/plaza-31-de-julio",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/historia-de-la-plaza-31-de-julio",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -171,14 +171,14 @@
       "datePublished": "2025-01-01",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://sanignaciodevelasco.vercel.app/historia/plaza-31-de-julio"
+        "@id": "https://sanignaciodevelasco.vercel.app/historia/historia-de-la-plaza-31-de-julio"
       }
     }
   },
   "historia-de-el-parque-noel-kempff-mercado": {
     "title": " Historia del Parque Noel Kempff Mercado",
     "description": "Una mirada histórica a uno de los parques naturales más importantes de Bolivia.",
-    "canonical": "https://sanignaciodevelasco.vercel.app/historia/parque-noel-kempff-mercado",
+    "canonical": "https://sanignaciodevelasco.vercel.app/historia/historia-de-el-parque-noel-kempff-mercado",
     "schema": {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -200,7 +200,7 @@
       "datePublished": "2025-01-01",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://sanignaciodevelasco.vercel.app/parque-noel-kempff-mercado"
+        "@id": "https://sanignaciodevelasco.vercel.app/historia-de-el-parque-noel-kempff-mercado"
       }
     }
   },
