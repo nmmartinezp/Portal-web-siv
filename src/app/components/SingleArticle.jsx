@@ -1,12 +1,20 @@
 import Link from "next/link";
 
-function SingleArticle({ id, children, title }) {
+function SingleArticle({ children, title }) {
+  const articleId = title
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[:]/g, "")
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .trim();
   return (
-    <article id={id} className="w-full h-auto grid grid-cols-12 gap-4">
+    <article id={articleId} className="w-full h-auto grid grid-cols-12 gap-4">
       <section className="col-span-12 xl:col-span-4 flex gap-1 items-center justify-start text-3xl md:text-5xl py-4">
         <h3 className="text-start text-warning">{title}</h3>
         <Link
-          href={`#${id}`}
+          href={`#${articleId}`}
           className="text-primary-300 opacity-25 hover:underline hover:opacity-90"
         >
           #

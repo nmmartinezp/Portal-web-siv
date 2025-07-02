@@ -89,11 +89,7 @@ export default async function Territory() {
                 <ParagraphContent>{item.content}</ParagraphContent>
               </IllustratedArticle>
             ) : (
-              <SingleArticle
-                id={`art-${index}`}
-                key={`art-${index}`}
-                title={item.title}
-              >
+              <SingleArticle key={`art-${index}`} title={item.title}>
                 <ParagraphContent>{item.content}</ParagraphContent>
               </SingleArticle>
             )

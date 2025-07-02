@@ -5,7 +5,13 @@
     "description": "Centro de la religión ignaciana y herencia cultural religiosa",
     "content": "En el corazón de la Chiquitania boliviana se alza la majestuosa Catedral de San Ignacio de Velasco, un símbolo vivo del legado jesuítico y la devoción de su pueblo.\nConstruida originalmente entre 1748 y 1761 por misioneros jesuitas con la colaboración de la comunidad chiquitana, esta iglesia destacaba por su imponente estructura de 18 columnas salomónicas de madera tallada y un altar mayor recubierto en pan de oro y mica. Enfrentó desafíos, incluyendo incendios y deterioro, fue reconstruida meticulosamente, respetando su diseño original y utilizando técnicas tradicionales. Hoy, su fachada de adobe, balcones de madera y detalles ornamentales reflejan la rica herencia cultural de la región.\nMás que un monumento histórico, la Catedral de San Ignacio de Velasco es un testimonio de la resiliencia y fe de su comunidad, y una parada obligatoria para quienes desean sumergirse en la historia y espiritualidad de la Chiquitania.",
     "locLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3828.0023912096717!2d-60.961804791423155!3d-16.37384059183061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93933d7952ec58eb%3A0x77beea49c2e7fa43!2sCatedral%20de%20San%20Ignacio!5e0!3m2!1ses-419!2sbo!4v1746653941004!5m2!1ses-419!2sbo",
-    "sources": ["fuente 1", "fuente 2"]
+    "sources": ["fuente 1", "fuente 2"],
+    "refHistory": {
+      "image": "",
+      "altImage": "",
+      "content": "Iglesia construida para convertirse en el centro religioso misional, que marcaría el inicio de una época",
+      "href": "/historia/historia-de-la-catedral-de-san-ignacio-de-velasco"
+    }
   },
   {
     "title": "La Cueva del Yeso",
@@ -13,7 +19,13 @@
     "description": "Un rincón subterráneo con historia del pasado misional",
     "content": "A tan solo 2 kilómetros al noreste de San Ignacio de Velasco se encuentra la Cueva del Yeso, una formación natural que combina belleza geológica y riqueza histórica. Durante la época jesuítica, de esta caverna se extraía caolín, utilizado para blanquear las viviendas en lugar de cal, y también empleado en medicina para tratar fracturas óseas\nAl adentrarse en la cueva, los visitantes experimentan una notable disminución de temperatura y un eco envolvente que amplifica cada sonido. Las formaciones rocosas y la presencia de murciélagos añaden un toque de misterio y aventura al recorrido.",
     "locLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15312.880525020604!2d-60.96800861654985!3d-16.36274499674857!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93933d8fb4c1fc91%3A0x8d336c8f6518e89e!2sCueva%20de%20Yeso!5e0!3m2!1ses-419!2sbo!4v1746656380081!5m2!1ses-419!2sbo",
-    "sources": ["fuente 1", "fuente 2"]
+    "sources": ["fuente 1", "fuente 2"],
+    "refHistory": {
+      "image": "",
+      "altImage": "",
+      "content": "",
+      "href": "/historia"
+    }
   },
   {
     "title": "La Represa Guapomó",
@@ -21,7 +33,13 @@
     "description": "El pulmón hídrico que da vida al municipio",
     "content": "La represa es un lugar predilecto para los ignacianos, especialmente durante los días calurosos, donde familias y amigos se reúnen para disfrutar de actividades como natación, paseos en canoas, pesca deportiva y caminatas ecológicas.\nAdemás, la represa cuenta con instalaciones para actividades al aire libre como fútbol y vóley de playa, así como un parque infantil, lo que la convierte en un destino ideal para todas las edades.",
     "locLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7656.230188461087!2d-60.963605576477335!3d-16.368098385742044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93933d837bb1d2a5%3A0x71ef177f0dfcdb79!2sparque%20de%20la%20represa!5e0!3m2!1ses-419!2sbo!4v1746657722912!5m2!1ses-419!2sbo",
-    "sources": ["fuente 1", "fuente 2"]
+    "sources": ["fuente 1", "fuente 2"],
+    "refHistory": {
+      "image": "",
+      "altImage": "",
+      "content": "Un tesoro de agua que sustento la vida histórica de un pueblo",
+      "href": "/historia/historia-de-la-represa-guapomo"
+    }
   },
   {
     "title": "El Mirador del Cristo",
@@ -29,7 +47,13 @@
     "description": "La gran vista hacia el pulmón hídrico",
     "content": "Aproximadamente a 4 kilómetros de la Plaza Principal de San Ignacio de Velasco, bordeando la Represa Guapomó, se encuentra el Mirador del Cristo, un lugar que combina espiritualidad, historia y una impresionante vista panorámica de la ciudad y sus alrededores.\nEl mirador ofrece una caminata agradable que permite al visitante, sin mucho esfuerzo, disfrutar del paisaje y la riqueza natural. Desde este punto se tiene una hermosa vista panorámica de la represa y de toda la ciudad de San Ignacio.\nAdemás de su valor espiritual, el Mirador del Cristo es un lugar ideal para quienes buscan un momento de contemplación y conexión con la naturaleza, siendo una parada obligatoria para los visitantes de San Ignacio de Velasco.",
     "locLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7656.359461602147!2d-60.961610012970255!3d-16.364804275567316!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93933db4e66f47dd%3A0x2328840e5f59d7c0!2sMirador%20EL%20CRISTO!5e0!3m2!1ses-419!2sbo!4v1746658208546!5m2!1ses-419!2sbo",
-    "sources": ["fuente 1", "fuente 2"]
+    "sources": ["fuente 1", "fuente 2"],
+    "refHistory": {
+      "image": "",
+      "altImage": "",
+      "content": "",
+      "href": "/historia"
+    }
   },
   {
     "title": "La Plaza Principal 31 de julio",
@@ -37,6 +61,12 @@
     "description": "Corazón verde: un jardín botánico vivo y punto de encuentro cultural",
     "content": "Ubicada frente a la imponente Catedral de San Ignacio de Velasco, la Plaza Principal 31 de Julio es el corazón vibrante de la ciudad y una de las más grandes del circuito misional. Un gran punto de encuentro para locales y visitantes.\nLa plaza destaca por su abundante vegetación, con especies autóctonas como tajibos, maras, sotos, palmeras y toborochis, que ofrecen sombra y embellecen el entorno. Alrededor de la plaza, se pueden apreciar horcones tallados que reflejan la maestría de los artesanos locales en el trabajo de la madera.\nLa Plaza 31 de Julio es escenario de diversas actividades culturales y sociales. En sus alrededores se encuentran importantes instituciones como la Casa de la Cultura y el Museo Misional, que enriquecen la experiencia de quienes la visitan.",
     "locLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3828.0023912096717!2d-60.961804791423155!3d-16.37384059183061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93933d7bfc377093%3A0xea71a9325ec71927!2sPlaza%2031%20de%20Julio!5e0!3m2!1ses-419!2sbo!4v1746655121132!5m2!1ses-419!2sbo",
-    "sources": ["fuente 1", "fuente 2"]
+    "sources": ["fuente 1", "fuente 2"],
+    "refHistory": {
+      "image": "",
+      "altImage": "",
+      "content": "Plaza que fue construida en el inicio de un legado misional, que se convertiría en un centro de historias ignacianas",
+      "href": "/historia/historia-de-la-plaza-31-de-julio"
+    }
   }
 ]

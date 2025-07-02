@@ -204,7 +204,7 @@
       }
     }
   },
-  "/turismo/la-catedral-de-san-ignacio-de-velasco": {
+  "la-catedral-de-san-ignacio-de-velasco": {
     "title": "Visita la Catedral de San Ignacio de Velasco",
     "description": "Información turística para conocer la impresionante catedral barroca misional.",
     "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-catedral-de-san-ignacio-de-velasco",
@@ -222,7 +222,7 @@
       }
     }
   },
-  "/turismo/la-cueva-del-yeso": {
+  "la-cueva-del-yeso": {
     "title": "Visita La Cueva del Yeso",
     "description": "Explora esta formación natural única cercana a San Ignacio de Velasco.",
     "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-cueva-del-yeso",
@@ -240,7 +240,7 @@
       }
     }
   },
-  "/turismo/la-represa-guapomo": {
+  "la-represa-guapomo": {
     "title": "Visita La Represa Guapomo",
     "description": "Disfruta del turismo ecológico y la tranquilidad de este cuerpo de agua natural.",
     "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-represa-guapomo",
@@ -258,7 +258,7 @@
       }
     }
   },
-  "/turismo/el-mirador-del-cristo": {
+  "el-mirador-del-cristo": {
     "title": "Visita El Mirador del Cristo",
     "description": "Un punto panorámico ideal para admirar San Ignacio y su entorno natural.",
     "canonical": "https://sanignaciodevelasco.vercel.app/turismo/el-mirador-del-cristo",
@@ -276,7 +276,7 @@
       }
     }
   },
-  "/turismo/la-plaza-principal-31-de-julio": {
+  "la-plaza-principal-31-de-julio": {
     "title": "Visita La Plaza Principal 31 de Julio",
     "description": "Descubre la vida social y el atractivo turístico de la plaza central de San Ignacio.",
     "canonical": "https://sanignaciodevelasco.vercel.app/turismo/la-plaza-principal-31-de-julio",
