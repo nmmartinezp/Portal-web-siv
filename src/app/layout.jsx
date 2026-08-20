@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="es"
-      className="scrollbar-hide overflow-x-hidden scroll-pt-[var(--myapp-navbar--height)]"
+      className="scrollbar-hide overflow-x-hidden scroll-pt-[17vh]"
     >
       <body className={`${oswald.className} scrollbar-hide overflow-x-hidden`}>
         <HeroUIProvider>
