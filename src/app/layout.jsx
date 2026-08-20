@@ -10,7 +10,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className="scrollbar-hide overflow-x-hidden">
+    <html
+      lang="es"
+      className="scrollbar-hide overflow-x-hidden scroll-pt-[var(--myapp-navbar--height)]"
+    >
       <body className={`${oswald.className} scrollbar-hide overflow-x-hidden`}>
         <HeroUIProvider>
           <div
