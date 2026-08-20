@@ -3,9 +3,6 @@ import { oswald } from "@/styles/fonts";
 import "./globals.css";
 
 export const metadata = {
-  icons: {
-    icon: "/favorite.ico",
-  },
   verification: {
     google: "B9fEBFL-g3Pcl7K0U5ckXra80F5jx4iEEBfKvH4Zbt0",
   },
