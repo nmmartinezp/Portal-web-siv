@@ -55,6 +55,10 @@ This website began as an academic project but is dedicated to the independent pr
   <img src="https://img.shields.io/badge/Tailwind_CSS_3-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </p>
 
+## Previous versions of the project
+
+- Tag: Latest test version in Vite before migration to Next.js: [vite-v1.0](https://github.com/nmmartinezp/Portal-web-siv/releases/tag/vite-v1.0)
+
 ## Feedback or Support
 
 If you have any feedback or support, please reach out to us at martinezpardonisse@gmail.com
