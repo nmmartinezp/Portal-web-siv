@@ -5,10 +5,24 @@
     "canonical": "https://sanignaciodevelasco.vercel.app/",
     "schema": {
       "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "San Ignacio de Velasco",
-      "description": "Página principal con la presentación general del municipio de San Ignacio de Velasco, su historia, cultura, territorio y turismo.",
-      "url": "https://sanignaciodevelasco.vercel.app/"
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://sanignaciodevelasco.vercel.app/#website",
+          "name": "San Ignacio de Velasco",
+          "url": "https://sanignaciodevelasco.vercel.app/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://sanignaciodevelasco.vercel.app/#webpage",
+          "name": "San Ignacio de Velasco",
+          "description": "Página principal con la presentación general del municipio de San Ignacio de Velasco, su historia, cultura, territorio y turismo.",
+          "url": "https://sanignaciodevelasco.vercel.app/",
+          "isPartOf": {
+            "@id": "https://sanignaciodevelasco.vercel.app/#website"
+          }
+        }
+      ]
     }
   },
   "history": {
