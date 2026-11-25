@@ -5,7 +5,7 @@ This website began as an academic project but is dedicated to the independent pr
 ## Visit the website
 
 <div align="center" style="display: flex; justify-content: center; flex-direction: column; align-items: center; gap: 8px">
-<image src="images/muestra1.png" style="width: 100%" />
+<image src="docs/images/muestra1.png" style="width: 100%" />
 <a href="https://sanignaciodevelasco.vercel.app/" style>
 <image src="https://sanignaciodevelasco.vercel.app/logoChiquitania01.svg" width="200" />
 </a>
