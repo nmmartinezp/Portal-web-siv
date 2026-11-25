@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { Image } from "@imagekit/next";
 
 function Logo({
   className = "",
@@ -7,6 +7,7 @@ function Logo({
   width,
   height,
   loading = "eager",
+  title = "",
 }: {
   className?: string | undefined;
   src: string;
@@ -14,10 +15,11 @@ function Logo({
   width: number;
   height: number;
   loading?: "lazy" | "eager" | undefined;
+  title: string | undefined;
 }) {
   return (
     <div
-      className={`lg:h-full w-auto max-lg:py-8 flex lg:justify-center justify-start items-center${className}`}
+      className={`lg:h-full w-auto flex max-lg:flex-col lg:justify-start justify-center gap-1 items-center${className}`}
     >
       <Image
         src={src}
@@ -25,8 +27,15 @@ function Logo({
         loading={loading}
         width={width}
         height={height}
-        className="h-[70%] lg:h-[40%] xl:h-[75%] lg:w-auto max-lg:pr-16 max-lg:pl-4"
+        className="h-[60%] lg:h-[40%] xl:h-[75%] w-auto"
       />
+      <h2 className="text-white text-xl font-black flex justify-between gap-2">
+        {title.split("").map((letter, index) => (
+          <span key={index} aria-hidden="true">
+            {letter}
+          </span>
+        ))}
+      </h2>
     </div>
   );
 }

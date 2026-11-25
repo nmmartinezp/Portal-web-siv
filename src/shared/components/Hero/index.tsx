@@ -1,7 +1,7 @@
 import Content from "./Content";
 import Footer from "./Footer";
 import Header from "./Header";
-import Image from "next/image";
+import { Image } from "@imagekit/next";
 import { HeroProps } from "./Hero.types";
 
 function Hero({
@@ -14,14 +14,14 @@ function Hero({
 }: HeroProps) {
   return (
     <section className={`h-[50dvh] lg:h-[82dvh] w-full ${className}`}>
-      <div className="relative w-full h-full bg-gradient-to-r from-[#0b1117] via-[#0b1117ad] to-[#0b111700]">
+      <div className="relative w-full h-full bg-linear-to-br from-[#0b1117df] via-[#0b111700] to-[#0b111700]">
         <Image
           src={bgImage}
           alt={bgAlt}
-          width={5000}
+          width={2000}
           height={2000}
           loading={"eager"}
-          className="-z-20 absolute w-full h-full"
+          className="-z-20 absolute w-full h-full object-cover object-center saturate-150 brightness-75"
         />
         {SdImage == "" ? (
           <></>
@@ -37,7 +37,7 @@ function Hero({
         )}
 
         <div className="w-full h-full flex justify-start items-center">
-          <div className="max-w-[90dvw] lg:max-w-[50dvw] h-full flex flex-col gap-4 justify-center items-start pl-7 lg:pl-20 text-white">
+          <div className="max-w-[75dvw] lg:max-w-[50dvw] h-full flex flex-col gap-4 justify-center items-start pl-7 lg:pl-20 text-white">
             {children}
           </div>
         </div>

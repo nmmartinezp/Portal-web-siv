@@ -15,7 +15,7 @@ function Item({
   const { toggleNavBar } = useNavBar();
   return (
     <li
-      className={`h-full max-lg:w-full flex justify-center items-center lg:px-4 border-b-4 border-transparent hover:border-[#f6c82c] hover:text-[#f6c82c] ${className}`}
+      className={`h-full max-lg:w-full flex justify-center items-center lg:px-4 border-b-4 border-transparent hover:border-[#EA8522] ${className}`}
     >
       <Link
         onClick={toggleNavBar}
